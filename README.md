@@ -209,7 +209,7 @@ The work enabled Optimus and Sentinel to connect to wiki knowledge and supported
 
 ---
 
-## 4. 🔭 Sentinel — AI Incident Intelligence
+## 4. 🔭  AI Incident Intelligence
 
 I contributed capabilities designed around a very SRE-specific question:
 
