@@ -48,6 +48,256 @@ My work sits at the intersection of **Site Reliability Engineering, cloud infras
 - Partner with developers, QA, security and platform teams during delivery and incidents
 
 ---
+## ⚡ Why this profile is different
+
+Most SRE profiles say:
+
+> AWS + Kubernetes + Terraform + Grafana
+
+**Mine shows the engineering problems behind those technologies.**
+
+I work across the full reliability loop:
+
+```text
+BUILD → DEPLOY → OBSERVE → DETECT → INVESTIGATE → RECOVER → AUTOMATE → OPTIMIZE
+                                      ↑
+                              AI-assisted operations
+```
+
+My work combines **production SRE + platform engineering + automation + observability + cloud security + disaster recovery + AI-assisted operations**.
+
+### 📊 Selected engineering impact
+
+| Engineering outcome | What I delivered |
+|---|---|
+| 🏗️ **80% less infrastructure deployment effort** | Terraform/Terragrunt + GitHub Actions across **30+ environments** |
+| 🧩 **60–70% less IaC duplication** | Terragrunt migration + reusable infrastructure patterns |
+| 🔄 **50–70% less CI/CD maintenance** | Workflow standardisation and reusable GitHub Actions |
+| 🔐 **80–90% lower credential-management overhead** | OIDC authentication + removal of long-lived AWS credentials |
+| ☸️ **~90% less manual Kubernetes intervention** | Recovery automation, health checks and self-healing patterns |
+| 🔭 **~80% less troubleshooting effort** | Logging, Grafana, alerting and observability improvements |
+| 💰 **~33% infrastructure cost savings** | Valkey migration, right-sizing, RI governance and lifecycle controls |
+| 🤖 **40–60% less incident investigation effort** | AI-assisted SRE platform for operational investigation |
+| 🗺️ **70–80% less service-architecture discovery effort** | AI-powered service-flow and incident-intelligence tooling |
+
+These outcomes are backed by my production work and resume; the AI impact is specifically represented as an engineering objective/measure in my documented experience.
+
+---
+
+# 🧠 My SRE + AI Engineering Edge
+
+I am particularly interested in the next generation of SRE:
+
+**AI should not replace the SRE.  
+AI should increase the SRE's operational context.**
+
+That means turning scattered operational knowledge into something engineers can query, correlate and act on.
+
+### My AI/SRE work includes
+
+- 🤖 **AI-assisted SRE skills platform**
+- 🧠 AI agents for AWS, Kubernetes, CI/CD, databases and internal operational tooling
+- 🔎 AI-assisted incident investigation
+- 🗺️ AI-powered service architecture / service-flow discovery
+- 📊 AI-assisted Grafana abnormality analysis
+- 🔄 Recent-change investigation from Git commits and PRs
+- 🎫 Jira ticket extraction and deployment correlation
+- 💬 Slack incident-history search
+- 📚 Historical incident / knowledge-base retrieval
+- 🔌 **MCP-based knowledge and tooling integration**
+- 📝 AI-assisted architecture and specification generation
+- 🧩 Reusable Markdown-based AI skills and prompt patterns
+
+My production work explicitly includes AI agents and skills being used to independently investigate operational incidents, as well as an AI initiative presented to leadership. fileciteturn0file0L543-L605
+
+---
+
+# 🤖 AI for SRE — Selected Work
+
+## 1.  AI Markdown Registry / SRE Skills Platform
+
+An AI-assisted operational knowledge and skills platform designed to make SRE expertise reusable.
+
+### Capabilities
+
+```text
+AWS
+ ├── infrastructure investigation
+ ├── resource context
+ └── operational troubleshooting
+
+Kubernetes
+ ├── workload investigation
+ ├── events
+ └── deployment context
+
+CI/CD
+ ├── workflow analysis
+ ├── failures
+ └── deployment correlation
+
+Databases
+ ├── RDS investigation
+ └── operational context
+
+Internal SRE tooling
+ ├──wiki/knowledge-base
+```
+
+The platform was packaged for simple installation with `uv` and designed for adoption across VS Code, IntelliJ, Windsurf and OpenCode. fileciteturn0file0L543-L557
+
+---
+
+## 2. 🗺️ Service Flow Analyzer
+
+One of my strongest AI-for-SRE projects.
+
+The goal:
+
+> **Turn a complex application into an understandable service/dependency map without forcing an engineer to manually explore every repository and system.**
+
+### What it does
+
+```text
+Git / Repositories
+       ↓
+AI Agent
+       ↓
+Architecture + Dependency Analysis
+       ↓
+Service Flow
+       ↓
+Operational Knowledge
+       ↓
+Wiki Publishing
+```
+
+Work included:
+
+- AI agent for service-flow generation
+- Architecture briefs
+- Application dependency understanding
+- Service-flow creation across services
+- Automatic publishing to wiki
+- AI-agent based demonstration to leadership
+
+This work was specifically recognised as AI pioneer work in my documented achievements. fileciteturn0file0L561-L571
+
+---
+
+## 3. 🔌 Wiki Search MCP Server
+
+I built a **Wiki Search MCP server** to make organisational knowledge accessible to AI tooling.
+
+### Concept
+
+```text
+Engineer
+   ↓
+AI Assistant
+   ↓
+MCP
+   ↓
+Wiki Search
+   ↓
+Historical Knowledge
+   ↓
+Answer / Incident Context
+```
+
+The work enabled Optimus and Sentinel to connect to wiki knowledge and supported a Slackbot capable of retrieving and summarising incident history. fileciteturn0file0L573-L580
+
+---
+
+## 4. 🔭 Sentinel — AI Incident Intelligence
+
+I contributed capabilities designed around a very SRE-specific question:
+
+> **"What changed, what is broken, have we seen this before, and where should I look next?"**
+
+Capabilities included:
+
+- `investigate_recent_changes`
+- GitOps commit / PR analysis
+- Jira ticket extraction
+- Image-tag change detection
+- Grafana dashboard querying
+- Grafana configuration and dashboard registry
+- AWS service/dependency context
+- Slack incident search
+- Historical incident search
+- Enhanced logging and error handling
+
+This turns traditional observability from:
+
+```text
+Metric → Alert
+```
+
+toward:
+
+```text
+Metric
+  ↓
+Alert
+  ↓
+Recent Changes
+  ↓
+Deployment Correlation
+  ↓
+Grafana Context
+  ↓
+Incident History
+  ↓
+Likely Investigation Path
+```
+
+The underlying capabilities are documented in my engineering work. fileciteturn0file0L582-L605
+
+---
+
+# 🧬 5. Morphos Core — Domain-Agnostic AI Marketplace Platform
+
+### Featured personal project
+
+**Repository:** [github.com/E-Vanika/morphos-core](https://github.com/E-Vanika/morphos-core)
+
+Morphos Core is not another CRUD marketplace.
+
+It is a **hyper-variablized, domain-agnostic marketplace and booking engine that can morph its brand identity, domain behaviour and AI knowledge without changing the application code.**
+
+### The interesting part
+
+```text
+                    ┌─────────────────────┐
+                    │   ONE CODEBASE      │
+                    └──────────┬──────────┘
+                               │
+                    Environment Configuration
+                               │
+              ┌────────────────┼────────────────┐
+              ↓                ↓                ↓
+        Beauty / Bridal     Art / Craft     New Vertical
+              │                │                │
+              └────────────────┼────────────────┘
+                               ↓
+                    Domain-specific AI
+                               ↓
+                         RAG Knowledge
+                               ↓
+                    Semantic Vector Search
+                               ↓
+                       MCP Capabilities
+```
+technically honest.
+
+### Why I built it
+
+I wanted to demonstrate that I can think beyond infrastructure:
+
+**Platform engineering → AI architecture → retrieval → application behaviour → deployment → security → operations**
+
+This is the kind of project I want to bring into modern platform/SRE environments.
 
 # 🏗️ Selected Production Engineering Work
 
