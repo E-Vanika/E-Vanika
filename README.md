@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Vanika E
+# 👋 Hi, I'm Vanika 
 
 ### Senior SRE | Cloud Platform Engineer | Kubernetes | AWS | Terraform | Observability | Automation
 
@@ -308,11 +308,6 @@ This is the kind of project I want to bring into modern platform/SRE environment
 
 **Description:** A hands-on cloud engineering and site reliability engineering lab environment.
 
-**Language Composition:**
-- 🔧 **HCL** — 54.6% (Infrastructure as Code)
-- 🐍 **Python** — 28.9% (Automation & operational tooling)
-- 🔨 **Shell** — 9.9% (Scripting & orchestration)
-- 🐳 **Dockerfile** — 6.6% (Container definitions)
 
 This repository represents my practical SRE methodology:
 
@@ -320,6 +315,8 @@ This repository represents my practical SRE methodology:
 - **Python automation** for operational tooling and AWS resource management
 - **Shell scripting** for system automation and deployment workflows
 - **Containerisation** for portable, immutable workloads
+- **Grafana**, **vm-agent**, **OTEL**, **Prometheus** for visualization , observability
+- **Caddy** in replacement of istio
 
 The cloud-playground is a working lab environment where I validate:
 
@@ -773,6 +770,7 @@ Especially teams working on:
 # 🏆 Certifications & Recognition
 
 - **Microsoft Certified: Azure Fundamentals (AZ-900)**
+- **Microsoft Certified: Azure Administrator (AZ-104)** (Issued Dec 2022 · Expired Dec 2023)
 - **Accolade Champagne Award** — recognised for building a complete production-ready cloud environment from scratch in approximately 1–2 days.
 
 ---
@@ -782,8 +780,11 @@ Especially teams working on:
 **Master of Computer Applications (MCA)** — Anna University  
 **91%**
 
-**B.Sc. Computer Science** — Maher University  
+**B.Sc. Computer Science** — Meenakshi academy of higher education and research University  
 **86%**
+
+**HSC CS - Tamilnadu State Board**
+89%
 
 ---
 
