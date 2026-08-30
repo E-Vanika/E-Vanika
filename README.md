@@ -275,19 +275,19 @@ It is a **hyper-variablized, domain-agnostic marketplace and booking engine that
                                │
                     Environment Configuration
                                │
-                  ┌────────────┼────────────┐
-                  ↓            ↓            ↓
-            Beauty / Bridal Art / Craft New Vertical
-                  │            │            │
-                  └────────────┼────────────┘
-                               ↓
-                    Domain-specific AI
-                               ↓
-                         RAG Knowledge
-                               ↓
-                    Semantic Vector Search
-                               ↓
-                       MCP Capabilities
+                   ┌────────────┼────────────┐
+                   ↓            ↓            ↓
+             Beauty / Bridal Art / Craft New Vertical
+                   │            │            │
+                   └────────────┼────────────┘
+                                ↓
+                     Domain-specific AI
+                                ↓
+                          RAG Knowledge
+                                ↓
+                     Semantic Vector Search
+                                ↓
+                        MCP Capabilities
 ```
 
 technically honest.
@@ -329,6 +329,62 @@ The cloud-playground is a working lab environment where I validate:
 - Infrastructure automation and IaC best practices
 - Observability implementations
 - Cloud security patterns
+
+---
+
+## 🌐 SRE Networking Lab — Cloud Networking Fundamentals
+
+**Repository:** [github.com/E-Vanika/sre-networking-lab](https://github.com/E-Vanika/sre-networking-lab)
+
+**Description:** A hands-on networking lab built on Oracle Cloud's Always Free tier — all networking concepts practiced, not just read about, at $0 cost.
+
+### The problem this solves
+
+Most "networking" repos on GitHub are one VM with a security group and a README. This lab goes deeper by design:
+
+- **Two VCNs peered** with non-overlapping CIDR blocks (`10.0.0.0/16` and `10.1.0.0/16`)
+- **Fully isolated private subnet** with zero direct internet path
+- **Real encrypted hybrid tunnel** (WireGuard) connecting on-prem to cloud
+- **Every piece backed by Terraform** — version-controlled, reviewable, deployable
+- **CI/CD pipeline** — plan-on-PR, apply-on-approval workflow
+
+### Architecture
+
+```text
+On-Prem (home network)
+    ↓
+WireGuard UDP 51820 (encrypted hybrid tunnel)
+    ↓
+Web Tier VCN (10.0.0.0/16)
+├── Internet Gateway
+├── Public Subnet (10.0.1.0/24)
+├── e2-micro VM (WireGuard + Nginx)
+└── Local Peering Gateway
+    ↓
+App Tier VCN (10.1.0.0/16)
+├── Private Subnet (10.1.1.0/24)
+├── App tier VM (no public IP)
+└── Local Peering Gateway
+```
+
+### What's documented
+
+- **`docs/networking-topics.md`** — OSI fundamentals through DDoS mitigation, each concept tied to real commands run against this real infrastructure
+- **`docs/oci-vs-aws-networking.md`** — networking fluency across cloud vendors; concepts are universal even when the console isn't
+- **`docs/production-equivalents.md`** — every free/self-managed choice in this lab mapped to what runs in production at scale (AWS reference)
+- **`docs/hybrid-vpn-setup.md`** — working WireGuard tunnel between home network and cloud — the enterprise hybrid deployment problem, built end to end
+
+### Why this matters
+
+If you're evaluating whether someone actually understands networking versus can just click through a console, this repo answers that directly:
+
+- Infrastructure defined in code (not screenshots)
+- CI/CD enforced consistency
+- Hybrid connectivity tested and documented
+- Cross-region, cross-cloud concepts mapped
+- Zero infrastructure cost on the free tier
+
+**Technology:** Terraform • Oracle Cloud Infrastructure • WireGuard • VCN Peering • Security Lists • CI/CD
 
 ---
 
@@ -587,7 +643,7 @@ A major part of my SRE approach is replacing repetitive operational work with au
 
 ### Cloud
 
-`AWS` `Microsoft Azure`
+`AWS` `Microsoft Azure` `Oracle Cloud Infrastructure`
 
 ### Kubernetes & Platform
 
@@ -605,9 +661,9 @@ A major part of my SRE approach is replacing repetitive operational work with au
 
 `Prometheus` `Grafana` `CloudWatch` `Robusta` `KRR` `Fluent Bit`
 
-### Security
+### Security & Networking
 
-`HashiCorp Vault` `AWS Secrets Manager` `IAM` `KMS` `OIDC` `CrowdStrike`
+`HashiCorp Vault` `AWS Secrets Manager` `IAM` `KMS` `OIDC` `CrowdStrike` `WireGuard`
 
 ### Databases & Data Services
 
@@ -771,7 +827,7 @@ cost:
 
 I'm always interested in conversations around:
 
-**SRE • Kubernetes • AWS • Terraform • Platform Engineering • Observability • Cloud Security • Automation • Disaster Recovery**
+**SRE • Kubernetes • AWS • Terraform • Platform Engineering • Observability • Cloud Security • Automation • Disaster Recovery • Networking**
 
 📧 **Email:** vanikaraj1@gmail.com  
 💼 **LinkedIn:** [linkedin.com/in/vanika-e](https://linkedin.com/in/vanika-e)  
