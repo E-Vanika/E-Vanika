@@ -4,7 +4,7 @@
 
 I build and operate **reliable, secure, observable and cost-efficient cloud platforms** across development, staging and production environments.
 
-My work sits at the intersection of **Site Reliability Engineering, cloud infrastructure, Kubernetes, Infrastructure as Code, CI/CD, observability, security and incident response** — with a strong focus on reducing manual operations through automation.
+My work sits at the intersection of **Site Reliability Engineering, cloud infrastructure, Kubernetes, Infrastructure as Code, CI/CD, observability, security and incident response** — with a strong focus on automation, operational visibility and cloud cost optimisation.
 
 > **Reliability is not just keeping systems up. It's making them easier to operate, safer to change, faster to troubleshoot, and cheaper to run.**
 
@@ -60,8 +60,8 @@ I work across the full reliability loop:
 
 ```text
 BUILD → DEPLOY → OBSERVE → DETECT → INVESTIGATE → RECOVER → AUTOMATE → OPTIMIZE
-                                      ↑
-                              AI-assisted operations
+                                       ↑
+                               AI-assisted operations
 ```
 
 My work combines **production SRE + platform engineering + automation + observability + cloud security + disaster recovery + AI-assisted operations**.
@@ -108,7 +108,7 @@ That means turning scattered operational knowledge into something engineers can 
 - 📝 AI-assisted architecture and specification generation
 - 🧩 Reusable Markdown-based AI skills and prompt patterns
 
-My production work explicitly includes AI agents and skills being used to independently investigate operational incidents, as well as an AI initiative presented to leadership. fileciteturn0file0L543-L605
+My production work explicitly includes AI agents and skills being used to independently investigate operational incidents, as well as an AI initiative presented to leadership.
 
 ---
 
@@ -144,7 +144,7 @@ Internal SRE tooling
  ├──wiki/knowledge-base
 ```
 
-The platform was packaged for simple installation with `uv` and designed for adoption across VS Code, IntelliJ, Windsurf and OpenCode. fileciteturn0file0L543-L557
+The platform was packaged for simple installation with `uv` and designed for adoption across VS Code, IntelliJ, Windsurf and OpenCode.
 
 ---
 
@@ -181,7 +181,7 @@ Work included:
 - Automatic publishing to wiki
 - AI-agent based demonstration to leadership
 
-This work was specifically recognised as AI pioneer work in my documented achievements. fileciteturn0file0L561-L571
+This work was specifically recognised as AI pioneer work in my documented achievements.
 
 ---
 
@@ -205,7 +205,7 @@ Historical Knowledge
 Answer / Incident Context
 ```
 
-The work enabled Optimus and Sentinel to connect to wiki knowledge and supported a Slackbot capable of retrieving and summarising incident history. fileciteturn0file0L573-L580
+The work enabled Optimus and Sentinel to connect to wiki knowledge and supported a Slackbot capable of retrieving and summarising incident history.
 
 ---
 
@@ -252,7 +252,7 @@ Incident History
 Likely Investigation Path
 ```
 
-The underlying capabilities are documented in my engineering work. fileciteturn0file0L582-L605
+The underlying capabilities are documented in my engineering work.
 
 ---
 
@@ -275,11 +275,11 @@ It is a **hyper-variablized, domain-agnostic marketplace and booking engine that
                                │
                     Environment Configuration
                                │
-              ┌────────────────┼────────────────┐
-              ↓                ↓                ↓
-        Beauty / Bridal     Art / Craft     New Vertical
-              │                │                │
-              └────────────────┼────────────────┘
+                  ┌────────────┼────────────┐
+                  ↓            ↓            ↓
+            Beauty / Bridal Art / Craft New Vertical
+                  │            │            │
+                  └────────────┼────────────┘
                                ↓
                     Domain-specific AI
                                ↓
@@ -289,6 +289,7 @@ It is a **hyper-variablized, domain-agnostic marketplace and booking engine that
                                ↓
                        MCP Capabilities
 ```
+
 technically honest.
 
 ### Why I built it
@@ -300,6 +301,36 @@ I wanted to demonstrate that I can think beyond infrastructure:
 This is the kind of project I want to bring into modern platform/SRE environments.
 
 # 🏗️ Selected Production Engineering Work
+
+## 🧪 Cloud Playground — Hands-On SRE Lab
+
+**Repository:** [github.com/E-Vanika/cloud-playground](https://github.com/E-Vanika/cloud-playground)
+
+**Description:** A hands-on cloud engineering and site reliability engineering lab environment.
+
+**Language Composition:**
+- 🔧 **HCL** — 54.6% (Infrastructure as Code)
+- 🐍 **Python** — 28.9% (Automation & operational tooling)
+- 🔨 **Shell** — 9.9% (Scripting & orchestration)
+- 🐳 **Dockerfile** — 6.6% (Container definitions)
+
+This repository represents my practical SRE methodology:
+
+- **Infrastructure as Code** (Terraform/HCL) for repeatable, versioned infrastructure
+- **Python automation** for operational tooling and AWS resource management
+- **Shell scripting** for system automation and deployment workflows
+- **Containerisation** for portable, immutable workloads
+
+The cloud-playground is a working lab environment where I validate:
+
+- Multi-region disaster recovery strategies
+- Kubernetes platform patterns
+- CI/CD automation approaches
+- Infrastructure automation and IaC best practices
+- Observability implementations
+- Cloud security patterns
+
+---
 
 ## ☸️ Kubernetes & EKS Platform Engineering
 
@@ -619,7 +650,7 @@ Selected impact:
 
 ---
 
-# 📂 Featured Personal Project
+# 📂 Featured Personal Projects
 
 ## [Vanika Portfolio](https://github.com/E-Vanika/Vanika-Portfolio)
 
