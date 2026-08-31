@@ -1,33 +1,38 @@
-# 👋 Hi, I'm Vanika 
+<div align="center">
 
-### Senior SRE | Cloud Platform Engineer | Kubernetes | AWS | Terraform | Observability | Automation
+# Hi, I'm Vanika 👋
 
-I build and operate **reliable, secure, observable and cost-efficient cloud platforms** across development, staging and production environments.
+### Senior SRE · Cloud Platform Engineer
+**Kubernetes · AWS · Terraform · Observability · Automation**
 
-My work sits at the intersection of **Site Reliability Engineering, cloud infrastructure, Kubernetes, Infrastructure as Code, CI/CD, observability, security and incident response** — with a strong focus on automation, operational visibility and cloud cost optimisation.
+I build and operate **reliable, secure, observable, and cost-efficient cloud platforms** across development, staging, and production environments.
 
-> **Reliability is not just keeping systems up. It's making them easier to operate, safer to change, faster to troubleshoot, and cheaper to run.**
+*"Reliability is not just keeping systems up. It's making them easier to operate, safer to change, faster to troubleshoot, and cheaper to run."*
 
-[![GitHub](https://img.shields.io/badge/GitHub-E--Vanika-181717?logo=github)](https://github.com/E-Vanika)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vanika%20E-0A66C2?logo=linkedin)](https://linkedin.com/in/vanika-e)
-[![Open to Relocation](https://img.shields.io/badge/Relocation-Open-success)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-e--vanika.github.io-6E40C9?style=for-the-badge&logo=safari&logoColor=white)](https://e-vanika.github.io/Vanika-Portfolio)
+[![GitHub](https://img.shields.io/badge/GitHub-E--Vanika-181717?style=for-the-badge&logo=github)](https://github.com/E-Vanika)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vanika%20E-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vanika-e)
+[![Email](https://img.shields.io/badge/Email-vanikaraj1%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vanikaraj1@gmail.com)
+[![Open to Relocation](https://img.shields.io/badge/Relocation-Open-success?style=for-the-badge)](#)
+
+</div>
 
 ---
 
-## 🚀 Engineering Impact
+## 🚀 Engineering Impact at a Glance
 
 | Area | Impact |
 |---|---|
-| 🌎 **Cloud Operations** | Operated and improved platforms across **30+ Dev, Stage and Production environments** |
-| ⚙️ **Infrastructure Automation** | Reduced infrastructure deployment effort by approximately **80%** using Terraform/Terragrunt + GitHub Actions |
-| 🧩 **IaC Standardisation** | Reduced infrastructure code duplication by approximately **60–70%** through Terragrunt migration and reusable modules |
-| 🔄 **CI/CD Engineering** | Reduced CI/CD maintenance effort by approximately **50–70%** across **10+ business-critical platforms** |
-| 🔐 **Cloud Security** | Reduced credential-management overhead by approximately **80–90%** through OIDC and removal of long-lived AWS credentials |
-| ☸️ **Kubernetes Reliability** | Reduced manual intervention by approximately **90%** through recovery automation, health checks and self-healing patterns |
-| 🔭 **Observability** | Reduced troubleshooting effort by approximately **80%** through logging, Grafana, alerting and monitoring improvements |
-| 💰 **Cost Optimisation** | Delivered approximately **33% infrastructure cost savings** through right-sizing, cache modernisation, RI governance and lifecycle controls |
-| 🚨 **Incident Response** | First-responder on-call experience with rapid alert acknowledgement, triage, mitigation and follow-up |
-| 🌐 **Disaster Recovery** | Designed and tested active-passive, cross-region recovery using automated RDS snapshot replication and restoration |
+| 🌎 **Cloud Operations** | Operated and improved platforms across **30+ Dev, Stage & Production environments** |
+| ⚙️ **Infrastructure Automation** | **~80%** less deployment effort via Terraform/Terragrunt + GitHub Actions |
+| 🧩 **IaC Standardisation** | **~60–70%** less infra code duplication through Terragrunt migration & reusable modules |
+| 🔄 **CI/CD Engineering** | **~50–70%** less CI/CD maintenance across **10+ business-critical platforms** |
+| 🔐 **Cloud Security** | **~80–90%** lower credential-management overhead via OIDC, no long-lived AWS keys |
+| ☸️ **Kubernetes Reliability** | **~90%** less manual intervention via recovery automation & self-healing |
+| 🔭 **Observability** | **~80%** less troubleshooting effort via logging, Grafana & alerting improvements |
+| 💰 **Cost Optimisation** | **~33%** infrastructure cost savings via right-sizing, cache modernisation, RI governance |
+| 🚨 **Incident Response** | First-responder on-call, ~2–3 min alert acknowledgement, triage & mitigation |
+| 🌐 **Disaster Recovery** | Designed & tested active-passive, cross-region recovery with automated RDS snapshot replication |
 
 ---
 
@@ -37,18 +42,19 @@ My work sits at the intersection of **Site Reliability Engineering, cloud infras
 - Build reliable **Kubernetes / Amazon EKS** environments
 - Automate infrastructure with **Terraform and Terragrunt**
 - Build secure **GitHub Actions CI/CD** pipelines
-- Implement **OIDC, IAM, Vault and secrets-management** patterns
-- Build **Grafana dashboards, alerts and operational visibility**
+- Implement **OIDC, IAM, Vault, and secrets-management** patterns
+- Build **Grafana dashboards, alerts, and operational visibility**
 - Investigate incidents and perform root-cause analysis
 - Design and test **disaster-recovery and multi-region strategies**
 - Improve platform reliability through automation and self-healing
 - Identify infrastructure waste and drive **cloud cost optimisation**
-- Standardise engineering practices across multiple repositories and environments
-- Build operational tooling and automation with **Python and Bash**
-- Partner with developers, QA, security and platform teams during delivery and incidents
+- Standardise engineering practices across repositories and environments
+- Build operational tooling with **Python and Bash**
+- Partner with developers, QA, security, and platform teams during delivery and incidents
 
 ---
-## ⚡ Why this profile is different
+
+## ⚡ Why This Profile Is Different
 
 Most SRE profiles say:
 
@@ -66,37 +72,36 @@ BUILD → DEPLOY → OBSERVE → DETECT → INVESTIGATE → RECOVER → AUTOMATE
 
 My work combines **production SRE + platform engineering + automation + observability + cloud security + disaster recovery + AI-assisted operations**.
 
-### 📊 Selected engineering impact
+### 📊 Selected Engineering Impact
 
-| Engineering outcome | What I delivered |
+| Engineering Outcome | What I Delivered |
 |---|---|
-| 🏗️ **80% less infrastructure deployment effort** | Terraform/Terragrunt + GitHub Actions across **30+ environments** |
+| 🏗️ **80% less deployment effort** | Terraform/Terragrunt + GitHub Actions across 30+ environments |
 | 🧩 **60–70% less IaC duplication** | Terragrunt migration + reusable infrastructure patterns |
 | 🔄 **50–70% less CI/CD maintenance** | Workflow standardisation and reusable GitHub Actions |
-| 🔐 **80–90% lower credential-management overhead** | OIDC authentication + removal of long-lived AWS credentials |
-| ☸️ **~90% less manual Kubernetes intervention** | Recovery automation, health checks and self-healing patterns |
+| 🔐 **80–90% lower credential overhead** | OIDC authentication + removal of long-lived AWS credentials |
+| ☸️ **~90% less manual K8s intervention** | Recovery automation, health checks, self-healing patterns |
 | 🔭 **~80% less troubleshooting effort** | Logging, Grafana, alerting and observability improvements |
-| 💰 **~33% infrastructure cost savings** | Valkey migration, right-sizing, RI governance and lifecycle controls |
-| 🤖 **40–60% less incident investigation effort** | AI-assisted SRE platform for operational investigation |
-| 🗺️ **70–80% less service-architecture discovery effort** | AI-powered service-flow and incident-intelligence tooling |
+| 💰 **~33% infrastructure cost savings** | Valkey migration, right-sizing, RI governance, lifecycle controls |
+| 🤖 **40–60% less incident investigation** | AI-assisted SRE platform for operational investigation |
+| 🗺️ **70–80% less architecture discovery effort** | AI-powered service-flow and incident-intelligence tooling |
 
-These outcomes are backed by my production work and resume; the AI impact is specifically represented as an engineering objective/measure in my documented experience.
+*These outcomes are backed by production work and my documented experience.*
 
 ---
 
-# 🧠 My SRE + AI Engineering Edge
+## 🤖 SRE + AI Engineering Edge
 
-I am particularly interested in the next generation of SRE:
+I'm particularly interested in the next generation of SRE:
 
-**AI should not replace the SRE.  
-AI should increase the SRE's operational context.**
+> **AI should not replace the SRE. AI should increase the SRE's operational context.**
 
-That means turning scattered operational knowledge into something engineers can query, correlate and act on.
+That means turning scattered operational knowledge into something engineers can query, correlate, and act on.
 
-### My AI/SRE work includes
+**My AI/SRE work includes:**
 
-- 🤖 **AI-assisted SRE skills platform**
-- 🧠 AI agents for AWS, Kubernetes, CI/CD, databases and internal operational tooling
+- 🤖 AI-assisted SRE skills platform
+- 🧠 AI agents for AWS, Kubernetes, CI/CD, databases & internal tooling
 - 🔎 AI-assisted incident investigation
 - 🗺️ AI-powered service architecture / service-flow discovery
 - 📊 AI-assisted Grafana abnormality analysis
@@ -104,169 +109,51 @@ That means turning scattered operational knowledge into something engineers can 
 - 🎫 Jira ticket extraction and deployment correlation
 - 💬 Slack incident-history search
 - 📚 Historical incident / knowledge-base retrieval
-- 🔌 **MCP-based knowledge and tooling integration**
+- 🔌 MCP-based knowledge and tooling integration
 - 📝 AI-assisted architecture and specification generation
 - 🧩 Reusable Markdown-based AI skills and prompt patterns
 
-My production work explicitly includes AI agents and skills being used to independently investigate operational incidents, as well as an AI initiative presented to leadership.
+<details>
+<summary><b>🤖 AI for SRE — Selected Work (click to expand)</b></summary>
+
+### 1. AI Markdown Registry / SRE Skills Platform
+An AI-assisted operational knowledge and skills platform designed to make SRE expertise reusable — covering AWS infrastructure investigation, Kubernetes workload/event context, CI/CD workflow analysis, RDS investigation, and internal wiki/knowledge-base search. Packaged for install with `uv`, designed for adoption across VS Code, IntelliJ, Windsurf, and OpenCode.
+
+### 2. 🗺️ Service Flow Analyzer
+Turns a complex application into an understandable service/dependency map without forcing an engineer to manually explore every repository and system:
+
+```text
+Git / Repositories → AI Agent → Architecture + Dependency Analysis
+        → Service Flow → Operational Knowledge → Wiki Publishing
+```
+
+Included an AI agent for service-flow generation, architecture briefs, dependency understanding, and automatic publishing to the internal wiki — demonstrated to leadership and recognised as AI pioneer work.
+
+### 3. 🔌 Wiki Search MCP Server
+Built to make organisational knowledge accessible to AI tooling:
+
+```text
+Engineer → AI Assistant → MCP → Wiki Search → Historical Knowledge → Answer / Incident Context
+```
+
+Enabled internal tools to connect to wiki knowledge and powered a Slackbot capable of retrieving and summarising incident history.
+
+### 4. 🔭 AI Incident Intelligence
+Built around the question: *"What changed, what is broken, have we seen this before, and where should I look next?"*
+
+Capabilities: `investigate_recent_changes`, GitOps commit/PR analysis, Jira ticket extraction, image-tag change detection, Grafana dashboard querying, AWS service/dependency context, Slack + historical incident search.
+
+This shifts observability from a simple `Metric → Alert` flow into a full investigation chain: **Metric → Alert → Recent Changes → Deployment Correlation → Grafana Context → Incident History → Likely Investigation Path.**
+
+</details>
 
 ---
 
-# 🤖 AI for SRE — Selected Work
-
-## 1.  AI Markdown Registry / SRE Skills Platform
-
-An AI-assisted operational knowledge and skills platform designed to make SRE expertise reusable.
-
-### Capabilities
-
-```text
-AWS
- ├── infrastructure investigation
- ├── resource context
- └── operational troubleshooting
-
-Kubernetes
- ├── workload investigation
- ├── events
- └── deployment context
-
-CI/CD
- ├── workflow analysis
- ├── failures
- └── deployment correlation
-
-Databases
- ├── RDS investigation
- └── operational context
-
-Internal SRE tooling
- ├──wiki/knowledge-base
-```
-
-The platform was packaged for simple installation with `uv` and designed for adoption across VS Code, IntelliJ, Windsurf and OpenCode.
-
----
-
-## 2. 🗺️ Service Flow Analyzer
-
-One of my strongest AI-for-SRE projects.
-
-The goal:
-
-> **Turn a complex application into an understandable service/dependency map without forcing an engineer to manually explore every repository and system.**
-
-### What it does
-
-```text
-Git / Repositories
-       ↓
-AI Agent
-       ↓
-Architecture + Dependency Analysis
-       ↓
-Service Flow
-       ↓
-Operational Knowledge
-       ↓
-Wiki Publishing
-```
-
-Work included:
-
-- AI agent for service-flow generation
-- Architecture briefs
-- Application dependency understanding
-- Service-flow creation across services
-- Automatic publishing to wiki
-- AI-agent based demonstration to leadership
-
-This work was specifically recognised as AI pioneer work in my documented achievements.
-
----
-
-## 3. 🔌 Wiki Search MCP Server
-
-I built a **Wiki Search MCP server** to make organisational knowledge accessible to AI tooling.
-
-### Concept
-
-```text
-Engineer
-   ↓
-AI Assistant
-   ↓
-MCP
-   ↓
-Wiki Search
-   ↓
-Historical Knowledge
-   ↓
-Answer / Incident Context
-```
-
-The work enabled Optimus and Sentinel to connect to wiki knowledge and supported a Slackbot capable of retrieving and summarising incident history.
-
----
-
-## 4. 🔭  AI Incident Intelligence
-
-I contributed capabilities designed around a very SRE-specific question:
-
-> **"What changed, what is broken, have we seen this before, and where should I look next?"**
-
-Capabilities included:
-
-- `investigate_recent_changes`
-- GitOps commit / PR analysis
-- Jira ticket extraction
-- Image-tag change detection
-- Grafana dashboard querying
-- Grafana configuration and dashboard registry
-- AWS service/dependency context
-- Slack incident search
-- Historical incident search
-- Enhanced logging and error handling
-
-This turns traditional observability from:
-
-```text
-Metric → Alert
-```
-
-toward:
-
-```text
-Metric
-  ↓
-Alert
-  ↓
-Recent Changes
-  ↓
-Deployment Correlation
-  ↓
-Grafana Context
-  ↓
-Incident History
-  ↓
-Likely Investigation Path
-```
-
-The underlying capabilities are documented in my engineering work.
-
----
-
-# 🧬 5. Morphos Core — Domain-Agnostic AI Marketplace Platform
-
-### Featured personal project
+## 🧬 Featured Personal Project — Morphos Core
 
 **Repository:** [github.com/E-Vanika/morphos-core](https://github.com/E-Vanika/morphos-core)
 
-Morphos Core is not another CRUD marketplace.
-
-It is a **hyper-variablized, domain-agnostic marketplace and booking engine that can morph its brand identity, domain behaviour and AI knowledge without changing the application code.**
-
-### The interesting part
+A **hyper-variablized, domain-agnostic marketplace and booking engine** that can morph its brand identity, domain behaviour, and AI knowledge without changing application code.
 
 ```text
                     ┌─────────────────────┐
@@ -281,563 +168,257 @@ It is a **hyper-variablized, domain-agnostic marketplace and booking engine that
                    │            │            │
                    └────────────┼────────────┘
                                 ↓
-                     Domain-specific AI
-                                ↓
-                          RAG Knowledge
-                                ↓
-                     Semantic Vector Search
-                                ↓
-                        MCP Capabilities
+                     Domain-specific AI → RAG Knowledge
+                     → Semantic Vector Search → MCP Capabilities
 ```
 
-technically honest.
+Built to demonstrate thinking beyond infrastructure: **platform engineering → AI architecture → retrieval → application behaviour → deployment → security → operations.**
 
-### Why I built it
+---
 
-I wanted to demonstrate that I can think beyond infrastructure:
+## 🏗️ Selected Production Engineering Work
 
-**Platform engineering → AI architecture → retrieval → application behaviour → deployment → security → operations**
-
-This is the kind of project I want to bring into modern platform/SRE environments.
-
-# 🏗️ Selected Production Engineering Work
-
-## 🧪 Cloud Playground — Hands-On SRE Lab
+<details>
+<summary><b>🧪 Cloud Playground — Hands-On SRE Lab</b></summary>
 
 **Repository:** [github.com/E-Vanika/cloud-playground](https://github.com/E-Vanika/cloud-playground)
 
-**Description:** A hands-on cloud engineering and site reliability engineering lab environment.
-
-
-This repository represents my practical SRE methodology:
-
+A hands-on cloud engineering and SRE lab environment demonstrating practical methodology:
 - **Infrastructure as Code** (Terraform/HCL) for repeatable, versioned infrastructure
 - **Python automation** for operational tooling and AWS resource management
 - **Shell scripting** for system automation and deployment workflows
 - **Containerisation** for portable, immutable workloads
-- **Grafana**, **vm-agent**, **OTEL**, **Prometheus** for visualization , observability
-- **Caddy** in replacement of istio
+- **Grafana, vm-agent, OTEL, Prometheus** for observability
+- **Caddy** as an Istio replacement
 
-The cloud-playground is a working lab environment where I validate:
+Used to validate multi-region DR strategies, Kubernetes platform patterns, CI/CD approaches, IaC best practices, observability, and security patterns.
+</details>
 
-- Multi-region disaster recovery strategies
-- Kubernetes platform patterns
-- CI/CD automation approaches
-- Infrastructure automation and IaC best practices
-- Observability implementations
-- Cloud security patterns
-
----
-
-## 🌐 SRE Networking Lab — Cloud Networking Fundamentals
+<details>
+<summary><b>🌐 SRE Networking Lab — Cloud Networking Fundamentals</b></summary>
 
 **Repository:** [github.com/E-Vanika/sre-networking-lab](https://github.com/E-Vanika/sre-networking-lab)
 
-**Description:** A hands-on networking lab built on Oracle Cloud's Always Free tier — all networking concepts practiced, not just read about, at $0 cost.
-
-### The problem this solves
-
-Most "networking" repos on GitHub are one VM with a security group and a README. This lab goes deeper by design:
-
-- **Two VCNs peered** with non-overlapping CIDR blocks (`10.0.0.0/16` and `10.1.0.0/16`)
-- **Fully isolated private subnet** with zero direct internet path
-- **Real encrypted hybrid tunnel** (WireGuard) connecting on-prem to cloud
-- **Every piece backed by Terraform** — version-controlled, reviewable, deployable
-- **CI/CD pipeline** — plan-on-PR, apply-on-approval workflow
-
-### Architecture
+A hands-on networking lab on Oracle Cloud's Always Free tier — every concept practiced, not just read about, at $0 cost:
+- Two VCNs peered with non-overlapping CIDR blocks (`10.0.0.0/16` and `10.1.0.0/16`)
+- Fully isolated private subnet with zero direct internet path
+- Real encrypted hybrid tunnel (WireGuard) connecting on-prem to cloud
+- Every piece backed by Terraform — version-controlled, reviewable, deployable
+- CI/CD pipeline — plan-on-PR, apply-on-approval workflow
 
 ```text
 On-Prem (home network)
-    ↓
-WireGuard UDP 51820 (encrypted hybrid tunnel)
-    ↓
-Web Tier VCN (10.0.0.0/16)
-├── Internet Gateway
-├── Public Subnet (10.0.1.0/24)
-├── e2-micro VM (WireGuard + Nginx)
-└── Local Peering Gateway
-    ↓
-App Tier VCN (10.1.0.0/16)
-├── Private Subnet (10.1.1.0/24)
-├── App tier VM (no public IP)
-└── Local Peering Gateway
+    ↓ WireGuard UDP 51820 (encrypted hybrid tunnel)
+Web Tier VCN (10.0.0.0/16) — Internet Gateway, Public Subnet, e2-micro VM (WireGuard + Nginx)
+    ↓ Local Peering Gateway
+App Tier VCN (10.1.0.0/16) — Private Subnet, App tier VM (no public IP)
 ```
 
-### What's documented
+Documented in depth: OSI fundamentals through DDoS mitigation, OCI-vs-AWS networking fluency, production-equivalent mappings, and a working hybrid VPN setup guide.
 
-- **`docs/networking-topics.md`** — OSI fundamentals through DDoS mitigation, each concept tied to real commands run against this real infrastructure
-- **`docs/oci-vs-aws-networking.md`** — networking fluency across cloud vendors; concepts are universal even when the console isn't
-- **`docs/production-equivalents.md`** — every free/self-managed choice in this lab mapped to what runs in production at scale (AWS reference)
-- **`docs/hybrid-vpn-setup.md`** — working WireGuard tunnel between home network and cloud — the enterprise hybrid deployment problem, built end to end
+**Technology:** Terraform · Oracle Cloud Infrastructure · WireGuard · VCN Peering · Security Lists · CI/CD
+</details>
 
-### Why this matters
+<details>
+<summary><b>☸️ Kubernetes & EKS Platform Engineering</b></summary>
 
-If you're evaluating whether someone actually understands networking versus can just click through a console, this repo answers that directly:
+- Performed critical EKS upgrades across Dev, Stage, and Production, including multi-region migrations from Kubernetes **1.28/1.29 → 1.31 → 1.32**
+- Created EKS clusters and supporting infrastructure through Terraform
+- Implemented Kubernetes health and recovery mechanisms; investigated pod eviction and workload reliability issues
+- Implemented GitOps repository structures for Flux reconciliation
+- Implemented Robusta for Kubernetes event monitoring and deployed KRR for resource-optimisation recommendations
 
-- Infrastructure defined in code (not screenshots)
-- CI/CD enforced consistency
-- Hybrid connectivity tested and documented
-- Cross-region, cross-cloud concepts mapped
-- Zero infrastructure cost on the free tier
+**SRE focus:** availability · recoverability · safe upgrades · operational visibility · capacity management
+</details>
 
-**Technology:** Terraform • Oracle Cloud Infrastructure • WireGuard • VCN Peering • Security Lists • CI/CD
+<details>
+<summary><b>🌎 Multi-Region Disaster Recovery</b></summary>
 
----
+Designed and tested an active-passive DR approach for production workloads:
+1. Evaluated multiple RDS data-copy strategies and tested them in staging
+2. Selected cross-region automated snapshot copy
+3. Provisioned target-region infrastructure through Terraform and bootstrapped Flux
+4. Built a Python AWS Lambda to copy automated RDS snapshots cross-region, deployed via Terraform
+5. Restored and tested the latest snapshot in the target region, documenting the recovery process
 
-## ☸️ Kubernetes & EKS Platform Engineering
+**Result:** a repeatable recovery path covering AWS infrastructure → Kubernetes → GitOps → database recovery → application readiness.
+</details>
 
-Hands-on experience operating and upgrading multi-environment EKS platforms.
+<details>
+<summary><b>🔭 Observability & Incident Intelligence</b></summary>
 
-### Key work
+- Built consolidated dashboards mapped to critical application alerts and Grafana panels
+- Created CloudWatch alerts, periodic alert-state summaries, and Slack alert routing
+- Added pod-restart monitoring and Grafana dashboards for IAM, IP, and infrastructure metrics
+- Investigated and fixed Fluent Bit / Helm chart issues affecting log delivery reliability
+- Responded to production alerts on-call with ~2–3 minute acknowledgement, tracked incident/JIRA follow-ups, and documented learnings for future responders
+</details>
 
-- Performed critical EKS upgrades across Dev, Stage and Production.
-- Upgraded clusters across multiple regions, including migrations from Kubernetes **1.28/1.29 → 1.31 → 1.32**.
-- Created EKS clusters and supporting infrastructure through Terraform.
-- Implemented Kubernetes health and recovery mechanisms.
-- Investigated pod eviction and workload reliability issues.
-- Deployed and maintained workloads across Dev, Stage and Production.
-- Implemented GitOps repository structures for Flux reconciliation.
-- Worked with Helm repositories and Kubernetes platform components.
-- Implemented Robusta for Kubernetes event monitoring.
-- Deployed Kubernetes Resource Recommender (KRR) across environments.
-- Used KRR recommendations to support resource optimisation and cost reduction.
+<details>
+<summary><b>⚙️ Infrastructure as Code (Terraform & Terragrunt)</b></summary>
 
-**SRE focus:** availability • recoverability • safe upgrades • operational visibility • capacity management
+**Terraform** used to provision and manage EKS, RDS, RDS Proxy, ECR, S3, IAM, VPC/networking, secrets infrastructure, Lambda, monitoring, and multi-region DR infrastructure.
 
----
+**Terragrunt** migration led to improve DRY infrastructure design, environment consistency, reusability, and multi-environment management.
 
-## 🌎 Multi-Region Disaster Recovery
+**State & drift management:** resolved Terraform state consistency issues, implemented drift-detection workflows, automated validation/testing, and standardised infrastructure repositories.
+</details>
 
-Designed and tested an **active-passive disaster-recovery approach** for production workloads.
+<details>
+<summary><b>🔄 CI/CD & GitHub Actions</b></summary>
 
-### DR implementation
+- Built GitHub Actions pipelines for infrastructure and application delivery; standardised workflows across repositories
+- Implemented **OIDC-based AWS authentication**, replacing long-lived PATs with GitHub App/OIDC patterns
+- Built image build/push pipelines to ECR, release-note automation, and drift-validation workflows
+- Created automation APIs for triggering GitHub Actions and automated RDS scaling operations
 
-1. Evaluated multiple RDS data-copy strategies.
-2. Tested the approaches in staging.
-3. Selected **cross-region automated snapshot copy**.
-4. Provisioned the target region infrastructure through Terraform.
-5. Bootstrapped Flux for the DR environment.
-6. Built a Python AWS Lambda to copy automated RDS snapshots cross-region.
-7. Automated Lambda deployment through Terraform.
-8. Restored the latest copied snapshot in the target region.
-9. Tested restoration and documented the recovery process.
+**Reliability principles:** least privilege · repeatability · immutable delivery · automated validation · reduced manual operations
+</details>
 
-### Result
+<details>
+<summary><b>🔐 Security & Secrets Management</b></summary>
 
-A repeatable recovery path covering:
+- Implemented GitHub Actions OIDC authentication and removed long-lived AWS credentials from CI/CD
+- Automated secrets creation using **HashiCorp Vault** and Terraform; used AWS Secrets Manager for platform secrets
+- Removed unused IAM users, hardened permissive security groups, remediated open SSH access and permissive SQS policies
+- Supported CrowdStrike rollout and migration away from Uptycs as part of a security tooling transition
+</details>
 
-**AWS infrastructure → Kubernetes → GitOps → database recovery → application readiness**
+<details>
+<summary><b>💰 Cloud Cost Optimisation</b></summary>
 
----
-
-## 🔭 Observability & Incident Intelligence
-
-Built and improved monitoring systems designed to make production incidents easier to detect and troubleshoot.
-
-### Monitoring work
-
-- Created consolidated dashboards for critical application alerts.
-- Mapped alerts to Grafana dashboard panels.
-- Created CloudWatch alerts and periodic alert-state summaries.
-- Routed operational alerts to dedicated Slack channels.
-- Added pod-restart monitoring across environments.
-- Created Grafana dashboards for IAM, IP and infrastructure metrics.
-- Investigated and fixed Grafana panel and permission issues.
-- Improved CloudWatch logging pipelines.
-- Investigated Fluent Bit and Helm chart issues affecting log delivery.
-- Upgraded Fluent Bit configuration/chart components to restore reliable logging.
-- Implemented Robusta for Kubernetes event monitoring.
-- Generated scheduled KRR resource recommendation reports.
-
-### Incident response
-
-- Responded to production and platform alerts during on-call.
-- Acknowledged alerts within approximately **2–3 minutes**.
-- Created and tracked incident/JIRA follow-ups.
-- Supported developers and QA during deployment and access incidents.
-- Participated in high-priority incident calls and weekend incident response.
-- Documented operational learnings and fixes for future responders.
-
----
-
-## ⚙️ Infrastructure as Code
-
-### Terraform
-
-Used Terraform to provision and manage:
-
-- EKS
-- RDS
-- RDS Proxy
-- ECR
-- S3
-- IAM
-- VPC/networking components
-- Secrets and supporting infrastructure
-- Lambda functions
-- Monitoring and alerting
-- Multi-region DR infrastructure
-
-### Terragrunt
-
-Led and contributed to Terragrunt migration initiatives to improve:
-
-- DRY infrastructure design
-- Environment consistency
-- Reusability
-- Maintainability
-- Multi-environment management
-
-### State & drift management
-
-- Worked on Terraform state consistency issues.
-- Implemented Terraform drift detection workflows.
-- Resolved infrastructure drift across environments.
-- Automated Terraform validation/testing.
-- Standardised infrastructure repositories and deployment patterns.
-
----
-
-# 🔄 CI/CD & GitHub Actions
-
-I use CI/CD not only to deploy applications, but also to enforce **security, consistency and operational safety**.
-
-### Engineering work
-
-- Built GitHub Actions pipelines for infrastructure and application delivery.
-- Standardised workflows across multiple repositories.
-- Created reusable Slack PR notification workflows.
-- Implemented GitHub Actions badges and workflow inventory tooling.
-- Built image build/push pipelines to Amazon ECR.
-- Implemented **OIDC-based AWS authentication**.
-- Replaced long-lived Personal Access Tokens with GitHub App/OIDC-based patterns.
-- Built release-note automation.
-- Added documentation validation on push.
-- Built drift-validation workflows.
-- Created automation APIs for triggering GitHub Actions.
-- Automated RDS scaling operations through workflow execution.
-- Investigated and resolved workflow, schema-validation, Kustomization and image-build failures.
-
-### Reliability principles
-
-**Least privilege • repeatability • immutable delivery • automated validation • reduced manual operations**
-
----
-
-# 🔐 Security & Secrets Management
-
-Security is treated as part of platform engineering rather than a separate afterthought.
-
-### Key work
-
-- Implemented GitHub Actions OIDC authentication.
-- Removed long-lived AWS credentials from CI/CD workflows.
-- Automated secrets creation using **HashiCorp Vault** and Terraform.
-- Used AWS Secrets Manager for application/platform secrets.
-- Rotated Azure client credentials.
-- Identified secrets that were not managed through Terraform.
-- Removed unused IAM users.
-- Hardened permissive security groups.
-- Remediated open SSH access as part of security hardening.
-- Remediated permissive SQS policies.
-- Removed deprecated infrastructure dependencies.
-- Supported CrowdStrike rollout across application environments.
-- Migrated away from Uptycs as part of the security tooling transition.
-
----
-
-# 💰 Cloud Cost Optimisation
-
-I actively look for opportunities to reduce infrastructure cost without compromising reliability.
-
-### Examples
-
-- Delivered approximately **33% cache-engine cost reduction** through Redis → Valkey migration.
-- Right-sized infrastructure after regional migration.
-- Investigated daily cloud-cost spikes.
-- Reviewed and validated cost alerts.
-- Identified unused load balancers and resources.
-- Removed unused ElastiCache resources.
-- Helped remove unused SQS queues.
-- Addressed RDS Reserved Instance expiry risks.
-- Reviewed S3 lifecycle-policy gaps.
-- Used KRR recommendations for resource optimisation.
-- Designed a cost-conscious active-passive DR approach.
+- Delivered **~33% cache-engine cost reduction** through Redis → Valkey migration
+- Right-sized infrastructure after regional migration; investigated daily cloud-cost spikes
+- Removed unused load balancers, ElastiCache resources, and SQS queues
+- Addressed RDS Reserved Instance expiry risks and S3 lifecycle-policy gaps
+- Used KRR recommendations for resource optimisation
 
 **Principle:** optimise based on evidence, not blindly on resource size.
+</details>
+
+<details>
+<summary><b>🗄️ Database & Data Platform Reliability</b></summary>
+
+**Amazon RDS / PostgreSQL:** upgraded PostgreSQL 15.4 → 16.4, tested extension compatibility and Global Writer Endpoint behaviour, implemented failover-handling changes, deployed RDS Proxy, migrated infrastructure to Terragrunt, and built cross-region snapshot-copy automation for DR.
+
+**Cache platforms:** worked with ElastiCache and MemoryDB, migrated Redis workloads to Valkey, and used resource/workload analysis to drive cost optimisation.
+</details>
+
+<details>
+<summary><b>🚀 Application Platform Engineering — Core Optical Platform</b></summary>
+
+- Provisioned AWS infrastructure via Terraform; created Kubernetes namespaces through GitOps
+- Structured Flux repositories for Dev, Stage, and Production; provisioned RDS clusters
+- Built CI/CD to build and push application images to ECR
+- Converted an inventory workload from CronJob to Deployment for improved scalability, deployed successfully to Production
+- Investigated production API failures, resolved pod eviction issues, and fixed CloudWatch log delivery problems
+</details>
 
 ---
 
-# 🗄️ Database & Data Platform Reliability
+## 🤖 Automation & Operational Tooling
 
-### Amazon RDS / PostgreSQL
+A major part of my SRE approach is replacing repetitive operational work with automation:
 
-- Upgraded PostgreSQL from **15.4 → 16.4** in application environments.
-- Tested database-extension compatibility during upgrades.
-- Tested RDS Global Writer Endpoint behaviour.
-- Implemented failover-handling changes.
-- Built queries for identifying long-running RDS queries.
-- Deployed RDS Proxy for application workloads.
-- Provisioned RDS through Terraform.
-- Migrated RDS infrastructure to Terragrunt.
-- Built cross-region snapshot-copy automation for DR.
-- Tested snapshot restoration in the DR region.
-
-### Cache platforms
-
-- Worked with ElastiCache and MemoryDB.
-- Migrated Redis workloads to **Valkey**.
-- Used resource and workload analysis to drive cost optimisation.
+- Python automation for AWS resource discovery
+- Lambda automation for periodic CloudWatch alert summaries and cross-region RDS snapshot replication
+- Workflow inventory collection across repositories and GitHub Actions workflow-trigger APIs
+- Automated RDS scaling, release-note generation, Grafana dashboard backups, and KRR resource reports
+- Automated secrets-management workflows and operational alert routing
 
 ---
 
-# 🚀 Application Platform Engineering
+## 🧰 Technology Stack
 
-### Core Optical Platform
-
-Provisioned and productionised infrastructure for the Core Optical platform.
-
-### Platform work
-
-- Provisioned AWS infrastructure using Terraform.
-- Created Kubernetes namespaces through GitOps.
-- Structured Flux repositories for Dev, Stage and Production.
-- Provisioned RDS clusters.
-- Automated secrets creation with Vault and Terraform.
-- Built CI/CD to build and push application images to ECR.
-- Converted an inventory workload from CronJob to Deployment for improved scalability.
-- Deployed the workload successfully into Production.
-- Created monitoring and critical alerts.
-- Investigated production API failures.
-- Resolved pod eviction issues.
-- Investigated and fixed CloudWatch log delivery problems.
-- Upgraded Fluent Bit/Helm components to improve logging reliability.
+| Category | Technologies |
+|---|---|
+| **Cloud** | AWS · Microsoft Azure · Oracle Cloud Infrastructure |
+| **Kubernetes & Platform** | Kubernetes · Amazon EKS · Helm · FluxCD · ArgoCD · Istio · Kong |
+| **Infrastructure as Code** | Terraform · Terragrunt · GitOps |
+| **CI/CD** | GitHub Actions · GitHub Apps · OIDC |
+| **Observability** | Prometheus · Grafana · CloudWatch · Robusta · KRR · Fluent Bit |
+| **Security & Networking** | HashiCorp Vault · AWS Secrets Manager · IAM · KMS · OIDC · CrowdStrike · WireGuard |
+| **Databases & Data Services** | RDS PostgreSQL · RDS Proxy · ElastiCache · MemoryDB · Valkey · ECR · S3 |
+| **Automation** | Python · Bash · AWS Lambda |
 
 ---
 
-# 🤖 Automation & Operational Tooling
+## 💼 Professional Experience
 
-A major part of my SRE approach is replacing repetitive operational work with automation.
+### Comcast — Development Engineer III
+**Apr 2023 – Present** · *Site Reliability Engineering · Cloud Platform Engineering*
 
-### Automation examples
+- Operated and improved cloud platforms across **30+ environments**
+- Reduced infrastructure deployment effort by **~80%** and IaC duplication by **~60–70%**
+- Reduced CI/CD maintenance effort by **~50–70%**; strengthened security via OIDC
+- Improved Kubernetes reliability and observability; delivered **~33%** infrastructure cost savings
+- Built and productionised EKS, RDS, RDS Proxy, ECR, IAM, S3, networking, and secrets-management components
+- Led and contributed to disaster recovery, migration, security, and platform-standardisation initiatives
 
-- Python automation for AWS resource discovery.
-- Lambda automation for periodic CloudWatch alert summaries.
-- Lambda automation for cross-region RDS snapshot replication.
-- Workflow inventory collection across repositories.
-- GitHub Actions workflow-trigger APIs.
-- Automated RDS scaling workflows.
-- Automated release-note generation.
-- Automated Grafana dashboard backups.
-- Automated KRR resource recommendation reports.
-- Automated secrets-management workflows.
-- Automated alert routing and operational summaries.
-
----
-
-# 🧰 Technology Stack
-
-### Cloud
-
-`AWS` `Microsoft Azure` `Oracle Cloud Infrastructure`
-
-### Kubernetes & Platform
-
-`Kubernetes` `Amazon EKS` `Helm` `FluxCD` `ArgoCD` `Istio` `Kong`
-
-### Infrastructure as Code
-
-`Terraform` `Terragrunt` `GitOps`
-
-### CI/CD
-
-`GitHub Actions` `GitHub Apps` `OIDC`
-
-### Observability
-
-`Prometheus` `Grafana` `CloudWatch` `Robusta` `KRR` `Fluent Bit`
-
-### Security & Networking
-
-`HashiCorp Vault` `AWS Secrets Manager` `IAM` `KMS` `OIDC` `CrowdStrike` `WireGuard`
-
-### Databases & Data Services
-
-`RDS PostgreSQL` `RDS Proxy` `ElastiCache` `MemoryDB` `Valkey` `ECR` `S3`
-
-### Automation
-
-`Python` `Bash` `AWS Lambda`
-
----
-
-# 💼 Professional Experience
-
-## Comcast — Development Engineer III
-**Apr 2023 – Present**  
-**Focus:** Site Reliability Engineering • Cloud Platform Engineering
-
-Selected impact:
-
-- Operated and improved cloud platforms across **30+ environments**.
-- Reduced infrastructure deployment effort by approximately **80%**.
-- Reduced IaC duplication by approximately **60–70%**.
-- Reduced CI/CD maintenance effort by approximately **50–70%**.
-- Strengthened CI/CD security using OIDC and removal of long-lived credentials.
-- Improved Kubernetes reliability and reduced manual intervention.
-- Improved observability and troubleshooting workflows.
-- Delivered approximately **33% infrastructure cost savings**.
-- Built and productionised EKS, RDS, RDS Proxy, ECR, IAM, S3, networking and secrets-management components.
-- Led and contributed to disaster recovery, migration, security and platform-standardisation initiatives.
-
-## ATOS — DevOps Engineer
+### ATOS — DevOps Engineer
 **Nov 2019 – Apr 2023**
 
-- Provisioned cloud infrastructure using Terraform.
-- Managed Dev, QA and Production environments.
-- Built and optimised Docker images.
-- Managed Kubernetes workloads on Azure.
-- Supported end-to-end CI/CD build and release processes.
-- Collaborated across teams to resolve pipeline and environment issues.
+- Provisioned cloud infrastructure using Terraform; managed Dev, QA, and Production environments
+- Built and optimised Docker images; managed Kubernetes workloads on Azure
+- Supported end-to-end CI/CD build and release processes across teams
 
 ---
 
-# 📂 Featured Personal Projects
+## 📂 Featured Personal Projects
 
-## [Vanika Portfolio](https://github.com/E-Vanika/Vanika-Portfolio)
+**[Vanika Portfolio](https://github.com/E-Vanika/Vanika-Portfolio)** — a personal engineering portfolio demonstrating production-minded CI/CD practices: PR quality gates, pre-release validation, concurrency controls, least-privilege GitHub Actions permissions, Dependabot automation, dependency-free Python accessibility validation, and automated link validation.
 
-A personal engineering portfolio demonstrating production-minded CI/CD practices.
-
-### Highlights
-
-- Pull-request quality gates
-- Pre-release validation
-- Concurrency controls
-- Least-privilege GitHub Actions permissions
-- Dependabot automation
-- Dependency-free Python accessibility validation
-- Automated link validation
+🔗 **Live site:** [e-vanika.github.io/Vanika-Portfolio](https://e-vanika.github.io/Vanika-Portfolio)
 
 ---
 
-# 📈 Reliability Engineering Mindset
-
-When I approach a production problem, I think in terms of:
+## 📈 Reliability Engineering Mindset
 
 ```text
-Detect
-  ↓
-Understand
-  ↓
-Mitigate
-  ↓
-Recover
-  ↓
-Find Root Cause
-  ↓
-Automate the Fix
-  ↓
-Prevent Recurrence
-  ↓
-Measure the Improvement
+Detect → Understand → Mitigate → Recover → Find Root Cause → Automate the Fix → Prevent Recurrence → Measure the Improvement
 ```
 
-My goal is not simply to close incidents.
-
-**The goal is to make the next incident less likely, easier to detect, faster to diagnose and safer to recover from.**
+My goal is not simply to close incidents. **The goal is to make the next incident less likely, easier to detect, faster to diagnose, and safer to recover from.**
 
 ---
 
-# 🎯 What I'm Looking For
+## 🎯 What I'm Looking For
 
-I'm interested in opportunities where I can contribute as a:
+Interested in opportunities as a **Senior Site Reliability Engineer · Senior DevOps Engineer · Cloud Platform Engineer · Platform Reliability Engineer · SRE / Cloud Infrastructure Engineer**, especially on teams working with:
 
-- **Senior Site Reliability Engineer**
-- **Senior DevOps Engineer**
-- **Cloud Platform Engineer**
-- **Platform Reliability Engineer**
-- **SRE / Cloud Infrastructure Engineer**
+`AWS` `Kubernetes` `Platform Engineering` `Distributed Systems` `Observability` `Infrastructure Automation` `Developer Platforms` `Reliability Engineering`
 
-Especially teams working on:
-
-`AWS` • `Kubernetes` • `Platform Engineering` • `Distributed Systems` • `Observability` • `Infrastructure Automation` • `Developer Platforms` • `Reliability Engineering`
-
-**Open to relocation.**
+**📍 Open to relocation.**
 
 ---
 
-# 🏆 Certifications & Recognition
+## 🏆 Certifications & Recognition
 
 - **Microsoft Certified: Azure Fundamentals (AZ-900)**
-- **Microsoft Certified: Azure Administrator (AZ-104)** (Issued Dec 2022 · Expired Dec 2023)
-- **Accolade Champagne Award** — recognised for building a complete production-ready cloud environment from scratch in approximately 1–2 days.
+- **Microsoft Certified: Azure Administrator (AZ-104)** *(Issued Dec 2022 · Expired Dec 2023)*
+- **Accolade Champagne Award** — recognised for building a complete production-ready cloud environment from scratch in ~1–2 days
+
+## 🎓 Education
+
+| Degree | Institution | Score |
+|---|---|---|
+| Master of Computer Applications (MCA) | Anna University | 91% |
+| B.Sc. Computer Science | Meenakshi Academy of Higher Education and Research University | 86% |
+| HSC (Computer Science) | Tamil Nadu State Board | 89% |
 
 ---
 
-# 🎓 Education
+<div align="center">
 
-**Master of Computer Applications (MCA)** — Anna University  
-**91%**
+## 🤝 Let's Connect
 
-**B.Sc. Computer Science** — Meenakshi academy of higher education and research University  
-**86%**
+**SRE · Kubernetes · AWS · Terraform · Platform Engineering · Observability · Cloud Security · Automation · Disaster Recovery · Networking**
 
-**HSC CS - Tamilnadu State Board**
-89%
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-6E40C9?style=for-the-badge&logo=safari&logoColor=white)](https://e-vanika.github.io/Vanika-Portfolio)
+[![Email](https://img.shields.io/badge/Email-vanikaraj1%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vanikaraj1@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vanika%20E-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vanika-e)
+[![GitHub](https://img.shields.io/badge/GitHub-E--Vanika-181717?style=for-the-badge&logo=github)](https://github.com/E-Vanika)
 
----
+*If you're reviewing this for an SRE / Platform Engineering role, start with the Production Engineering, Kubernetes, Disaster Recovery, Observability, IaC, CI/CD, Security, and Cost Optimisation sections above — they show operational problems turned into repeatable, automated, measurable engineering solutions.*
 
-# 📊 Engineering Principles
-
-```yaml
-reliability:
-  - automation_first
-  - measurable_improvement
-  - failure_is_a_signal
-  - design_for_recovery
-
-security:
-  - least_privilege
-  - short_lived_credentials
-  - oidc_over_long_lived_keys
-  - secrets_never_in_git
-
-operations:
-  - observable_by_default
-  - actionable_alerts
-  - documented_runbooks
-  - blameless_incident_learning
-
-infrastructure:
-  - infrastructure_as_code
-  - reusable_modules
-  - immutable_changes
-  - drift_detection
-
-cost:
-  - measure_before_optimising
-  - right_size
-  - remove_unused_resources
-  - optimise_without_reducing_reliability
-```
-
----
-
-# 🤝 Let's Connect
-
-I'm always interested in conversations around:
-
-**SRE • Kubernetes • AWS • Terraform • Platform Engineering • Observability • Cloud Security • Automation • Disaster Recovery • Networking**
-
-📧 **Email:** vanikaraj1@gmail.com  
-💼 **LinkedIn:** [linkedin.com/in/vanika-e](https://linkedin.com/in/vanika-e)  
-💻 **GitHub:** [github.com/E-Vanika](https://github.com/E-Vanika)
-
----
-
-### ⭐ If you're reviewing my profile for an SRE / Platform Engineering role
-
-Start with the sections above on **Production Engineering, Kubernetes, Disaster Recovery, Observability, Infrastructure as Code, CI/CD, Security and Cost Optimisation**.
-
-They represent the areas where I have focused on turning operational problems into **repeatable, automated and measurable engineering solutions**.
+</div>
