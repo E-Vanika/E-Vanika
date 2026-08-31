@@ -36,6 +36,15 @@ I build and operate **reliable, secure, observable, and cost-efficient cloud pla
 
 ---
 
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=E-Vanika&show_icons=true&theme=transparent&hide_border=true&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=E-Vanika&layout=compact&theme=transparent&hide_border=true)
+
+</div>
+
+---
+
 ## 🧠 What I Do as an SRE
 
 - Design and operate **production-grade AWS platforms**
@@ -149,11 +158,13 @@ This shifts observability from a simple `Metric → Alert` flow into a full inve
 
 ---
 
-## 🧬 Featured Personal Project — Morphos Core
+## 📂 Personal Projects
 
-**Repository:** [github.com/E-Vanika/morphos-core](https://github.com/E-Vanika/morphos-core)
+*Four projects, four different proofs: system design thinking, hands-on infra practice, networking fundamentals, and engineering discipline applied to my own portfolio.*
 
-A **hyper-variablized, domain-agnostic marketplace and booking engine** that can morph its brand identity, domain behaviour, and AI knowledge without changing application code.
+### 🧬 [Morphos Core](https://github.com/E-Vanika/morphos-core) — Domain-Agnostic AI Marketplace Platform
+
+A **hyper-variablized, domain-agnostic marketplace and booking engine** that can morph its brand identity, domain behaviour, and AI knowledge without changing application code — one codebase, many verticals.
 
 ```text
                     ┌─────────────────────┐
@@ -172,34 +183,31 @@ A **hyper-variablized, domain-agnostic marketplace and booking engine** that can
                      → Semantic Vector Search → MCP Capabilities
 ```
 
-Built to demonstrate thinking beyond infrastructure: **platform engineering → AI architecture → retrieval → application behaviour → deployment → security → operations.**
+**What it proves:** thinking beyond infrastructure — platform engineering → AI architecture → retrieval → application behaviour → deployment → security → operations, in a single system.
+**Stack:** RAG · Vector Search · MCP · Multi-tenant config-driven architecture
 
 ---
 
-## 🏗️ Selected Production Engineering Work
+### 🧪 [Cloud Playground](https://github.com/E-Vanika/cloud-playground) — Hands-On SRE Lab
 
-<details>
-<summary><b>🧪 Cloud Playground — Hands-On SRE Lab</b></summary>
+A hands-on cloud engineering and SRE lab environment where I validate ideas before they reach production — multi-region disaster recovery strategies, Kubernetes platform patterns, CI/CD approaches, IaC best practices, observability implementations, and cloud security patterns.
 
-**Repository:** [github.com/E-Vanika/cloud-playground](https://github.com/E-Vanika/cloud-playground)
-
-A hands-on cloud engineering and SRE lab environment demonstrating practical methodology:
 - **Infrastructure as Code** (Terraform/HCL) for repeatable, versioned infrastructure
 - **Python automation** for operational tooling and AWS resource management
 - **Shell scripting** for system automation and deployment workflows
 - **Containerisation** for portable, immutable workloads
 - **Grafana, vm-agent, OTEL, Prometheus** for observability
-- **Caddy** as an Istio replacement
+- **Caddy** as a lightweight Istio replacement
 
-Used to validate multi-region DR strategies, Kubernetes platform patterns, CI/CD approaches, IaC best practices, observability, and security patterns.
-</details>
+**What it proves:** the SRE practices I use at work, exercised end-to-end on my own infrastructure.
+**Stack:** Terraform · Python · Bash · Prometheus · Grafana · OTEL
 
-<details>
-<summary><b>🌐 SRE Networking Lab — Cloud Networking Fundamentals</b></summary>
+---
 
-**Repository:** [github.com/E-Vanika/sre-networking-lab](https://github.com/E-Vanika/sre-networking-lab)
+### 🌐 [SRE Networking Lab](https://github.com/E-Vanika/sre-networking-lab) — Cloud Networking Fundamentals
 
-A hands-on networking lab on Oracle Cloud's Always Free tier — every concept practiced, not just read about, at $0 cost:
+Most "networking" repos on GitHub are one VM with a security group and a README. This one goes deeper by design — every concept practiced, not just read about, at $0 cost on Oracle Cloud's Always Free tier.
+
 - Two VCNs peered with non-overlapping CIDR blocks (`10.0.0.0/16` and `10.1.0.0/16`)
 - Fully isolated private subnet with zero direct internet path
 - Real encrypted hybrid tunnel (WireGuard) connecting on-prem to cloud
@@ -216,8 +224,29 @@ App Tier VCN (10.1.0.0/16) — Private Subnet, App tier VM (no public IP)
 
 Documented in depth: OSI fundamentals through DDoS mitigation, OCI-vs-AWS networking fluency, production-equivalent mappings, and a working hybrid VPN setup guide.
 
-**Technology:** Terraform · Oracle Cloud Infrastructure · WireGuard · VCN Peering · Security Lists · CI/CD
-</details>
+**What it proves:** real networking fluency — not console clicking — with cross-cloud concepts mapped to production equivalents.
+**Stack:** Terraform · Oracle Cloud Infrastructure · WireGuard · VCN Peering · Security Lists · CI/CD
+
+---
+
+### 💼 [Vanika Portfolio](https://github.com/E-Vanika/Vanika-Portfolio) — Personal Site, Built Like Production Software
+
+🔗 **Live:** [e-vanika.github.io/Vanika-Portfolio](https://e-vanika.github.io/Vanika-Portfolio)
+
+A personal engineering portfolio treated as a real deliverable, not a static page — the CI/CD discipline is the point.
+
+- Pull-request quality gates and pre-release validation
+- Concurrency controls and least-privilege GitHub Actions permissions
+- Dependabot automation for dependency hygiene
+- Dependency-free Python accessibility validation
+- Automated link validation
+
+**What it proves:** production-minded engineering habits applied even to a "just a website" project.
+**Stack:** GitHub Actions · Python · Accessibility tooling
+
+---
+
+## 🏗️ Selected Production Engineering Work
 
 <details>
 <summary><b>☸️ Kubernetes & EKS Platform Engineering</b></summary>
@@ -361,14 +390,6 @@ A major part of my SRE approach is replacing repetitive operational work with au
 - Provisioned cloud infrastructure using Terraform; managed Dev, QA, and Production environments
 - Built and optimised Docker images; managed Kubernetes workloads on Azure
 - Supported end-to-end CI/CD build and release processes across teams
-
----
-
-## 📂 Featured Personal Projects
-
-**[Vanika Portfolio](https://github.com/E-Vanika/Vanika-Portfolio)** — a personal engineering portfolio demonstrating production-minded CI/CD practices: PR quality gates, pre-release validation, concurrency controls, least-privilege GitHub Actions permissions, Dependabot automation, dependency-free Python accessibility validation, and automated link validation.
-
-🔗 **Live site:** [e-vanika.github.io/Vanika-Portfolio](https://e-vanika.github.io/Vanika-Portfolio)
 
 ---
 
