@@ -36,15 +36,6 @@ I build and operate **reliable, secure, observable, and cost-efficient cloud pla
 
 ---
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=E-Vanika&show_icons=true&theme=transparent&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=E-Vanika&layout=compact&theme=transparent&hide_border=true)
-
-</div>
-
----
-
 ## 🧠 What I Do as an SRE
 
 - Design and operate **production-grade AWS platforms**
