@@ -71,7 +71,7 @@ I build and operate **reliable, secure, observable, and cost-efficient cloud pla
 - Design and test **disaster-recovery and multi-region strategies**
 - Improve platform reliability through automation and self-healing
 - Identify infrastructure waste and drive **cloud cost optimisation**
-- Standardise engineering practices across repositories and environments
+- Standardise engineering approaches across repositories and environments
 - Build operational tooling with **Python and Bash**
 - Partner with developers, QA, security, and platform teams during delivery and incidents
 
@@ -218,7 +218,7 @@ git push → GitHub Actions (build/test/Trivy) → ECR (OIDC, no stored keys)
 - AIOps observability loop: OpenTelemetry → Prometheus → Grafana + a custom anomaly-detection gate
 - AWS free-tier IaC (Terraform/OpenTofu) via GitHub Actions OIDC — zero stored cloud credentials
 
-**What it proves:** the same GitOps/AIOps discipline from production SRE work, applied end-to-end to an AI-orchestrated application — not just infra practice, a real app shipped through it.
+**What it proves:** the same GitOps/AIOps discipline from production SRE work, applied end-to-end to an AI-orchestrated application — not just an infra exercise, a real app shipped through it.
 **Stack:** Gemini · Docker · Kubernetes (Kind) · ArgoCD · Argo Rollouts · Terraform · OpenTelemetry · Prometheus · Grafana
 
 ---
@@ -271,9 +271,9 @@ Airflow DAG orchestrates all of it, on a schedule, end-to-end
 
 ---
 
-### 🧪 [solo-sre-project](https://github.com/E-Vanika/solo-sre-project) — Hands-On SRE Lab
+### 🧪 [solo-sre-project](https://github.com/E-Vanika/solo-sre-project) — Personal SRE Environment
 
-A hands-on cloud engineering and SRE lab environment where I validate ideas before they reach production — multi-region disaster recovery strategies, Kubernetes platform patterns, CI/CD approaches, IaC best practices, observability implementations, and cloud security patterns.
+A self-directed cloud engineering and SRE environment where I validate ideas before they reach production — multi-region disaster recovery strategies, Kubernetes platform patterns, CI/CD approaches, IaC design standards, observability implementations, and cloud security patterns.
 
 - **Infrastructure as Code** (Terraform/HCL) for repeatable, versioned infrastructure
 - **Python automation** for operational tooling and AWS resource management
@@ -282,14 +282,14 @@ A hands-on cloud engineering and SRE lab environment where I validate ideas befo
 - **Grafana, vm-agent, OTEL, Prometheus** for observability
 - **Caddy** as a lightweight Istio replacement
 
-**What it proves:** the SRE practices I use at work, exercised end-to-end on my own infrastructure.
+**What it proves:** the same SRE approach I use at work, exercised end-to-end on my own infrastructure.
 **Stack:** Terraform · Python · Bash · Prometheus · Grafana · OTEL
 
 ---
 
 ### 🌐 [Networking-A-to-Z](https://github.com/E-Vanika/Networking-A-to-Z) — Cloud Networking Fundamentals
 
-Most "networking" repos on GitHub are one VM with a security group and a README. This one goes deeper by design — every concept practiced, not just read about, at $0 cost on Oracle Cloud's Always Free tier.
+Most "networking" repos on GitHub are one VM with a security group and a README. This one goes deeper by design — every concept implemented, not just read about, at $0 cost on Oracle Cloud's Always Free tier.
 
 - Two VCNs peered with non-overlapping CIDR blocks (`10.0.0.0/16` and `10.1.0.0/16`)
 - Fully isolated private subnet with zero direct internet path
