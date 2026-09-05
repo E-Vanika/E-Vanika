@@ -43,12 +43,16 @@ I build and operate **reliable, secure, observable, and cost-efficient cloud pla
 ### Comcast — Development Engineer III
 **Apr 2023 – Present** · *Site Reliability Engineering · Cloud Platform Engineering*
 
-- Operated and improved cloud platforms across **30+ environments**
-- Reduced infrastructure deployment effort by **~80%** and IaC duplication by **~60–70%**
-- Reduced CI/CD maintenance effort by **~50–70%**; strengthened security via OIDC
-- Improved Kubernetes reliability and observability; delivered **~33%** infrastructure cost savings
-- Built and productionised EKS, RDS, RDS Proxy, ECR, IAM, S3, networking, and secrets-management components
-- Led and contributed to disaster recovery, migration, security, and platform-standardisation initiatives
+- Operated and improved cloud platforms across **30+ environments**, ramping onto on-call quickly and becoming a go-to person for platform support within a short tenure
+- Took single-handed, end-to-end ownership of the **core-optical platform** — infrastructure, GitOps, CI/CD, secrets, monitoring, and a CronJob → Deployment scalability refactor — from provisioning through production
+- Led major portions of a business-critical **Prod/Dev/Stage regional migration**: RDS, ElastiCache, and MemoryDB backup/restore, S3 replication, DNS cutover, node scaling, and post-migration cleanup
+- Designed, built, and tested an **active-passive disaster-recovery pipeline** — evaluated three RDS replication strategies, selected cross-region snapshot copy, and automated it end-to-end with a Python/Terraform-deployed Lambda
+- Delivered **~33%** cache infrastructure cost savings through a Redis → Valkey migration across Dev, Stage, and Production
+- Performed critical **EKS upgrades (1.28/1.29 → 1.31 → 1.32)** and **RDS PostgreSQL upgrades (15.4 → 16.4)** across multi-region production platforms, each backed by a documented SMOP
+- Standardised **GitHub Actions** across repositories, replacing long-lived PATs with OIDC/GitHub App authentication, and built reusable workflows for Slack PR notifications, release notes, and drift validation
+- Automated secrets and credential rotation using **HashiCorp Vault and AWS Secrets Manager**; led the CrowdStrike rollout that replaced Uptycs across environments
+- Built and shared an **AI-assisted SRE skills platform** and a **service-flow/architecture-discovery agent** with the wider organisation, presenting the initiative to VP-level leadership and using it to independently resolve production incidents
+- Maintained **~2–3 minute** on-call alert acknowledgement; consistently rated a strong, reliable performer and recognised as embedded SRE for the application
 
 ### ATOS — DevOps Engineer
 **Nov 2019 – Apr 2023**
