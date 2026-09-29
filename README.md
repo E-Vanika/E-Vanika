@@ -390,10 +390,11 @@ My goal is not simply to close incidents. **The goal is to make the next inciden
 | Master of Computer Applications (MCA) | Anna University | 91% |
 | B.Sc. Computer Science | Meenakshi Academy of Higher Education and Research University | 86% |
 | HSC (Computer Science) | Tamil Nadu State Board | 89% |
+| SSLC | Tamil Nadu State Board | 93.4% |
 
 - **Microsoft Certified: Azure Fundamentals (AZ-900)**
 - **Microsoft Certified: Azure Administrator (AZ-104)** *(Issued Dec 2022 · Expired Dec 2023)*
-- **Accolade Champagne Award** — recognised for building a complete production-ready cloud environment from scratch in ~1–2 days
+- **Accolade Champagne Award** — Recognised for building a complete production-ready cloud environment from scratch in ~1–2 days
 
 <br>
 
