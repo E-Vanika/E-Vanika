@@ -397,13 +397,7 @@ My goal is not simply to close incidents. **The goal is to make the next inciden
 
 <br>
 
-## 🎯 What I'm Looking For
 
-Interested in opportunities as a **Senior Site Reliability Engineer · Senior DevOps Engineer · Cloud Platform Engineer · Platform Reliability Engineer · SRE / Cloud Infrastructure Engineer**, especially on teams working with:
-
-`AWS` `Kubernetes` `Platform Engineering` `Distributed Systems` `Observability` `Infrastructure Automation` `Developer Platforms` `Reliability Engineering`
-
-**📍 Open to relocation.**
 
 ---
 
