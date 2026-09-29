@@ -204,76 +204,6 @@ A **hyper-variablized, domain-agnostic marketplace and booking engine** that can
 
 ---
 
-### 🧭 [Wayfinder](https://github.com/core-intel-forge/WayFinder) — AI-Orchestrated Learning Path Generator, Deployed via Full GitOps/AIOps Pipeline
-
-Takes a topic and generates a sequenced, verified learning path by combining live retrieval (YouTube, GitHub, Hacker News, Tavily) with LLM-based planning and a rule-based guardrail — then ships itself through the same GitOps/AIOps pipeline used in production platform work.
-
-```text
-Gemini (plan) → 4 parallel retrieval streams → dead-link guardrail
-     → keyword tagging → Gemini (sequence) → cached roadmap
-
-git push → GitHub Actions (build/test/Trivy) → ECR (OIDC, no stored keys)
-     → ArgoCD sync → Argo Rollouts canary → OTel/Prometheus/Grafana
-     → z-score anomaly gate → auto-promote or auto-rollback
-```
-
-- LLM restricted to planning + sequencing only — never retrieval, so it can't hallucinate resources
-- GitOps deployment via ArgoCD; canary rollouts with automated rollback via Argo Rollouts
-- AIOps observability loop: OpenTelemetry → Prometheus → Grafana + a custom anomaly-detection gate
-- AWS free-tier IaC (Terraform/OpenTofu) via GitHub Actions OIDC — zero stored cloud credentials
-
-**What it proves:** the same GitOps/AIOps discipline from production SRE work, applied end-to-end to an AI-orchestrated application — not just an infra exercise, a real app shipped through it.
-**Stack:** Gemini · Docker · Kubernetes (Kind) · ArgoCD · Argo Rollouts · Terraform · OpenTelemetry · Prometheus · Grafana
-
----
-
-### 🧯 [Incident Resolver](https://github.com/core-intel-forge/incident-resolver) — MLOps Pipeline That Classifies and Resolves Production Incidents
-
-Takes a raw incident description and returns a category, severity, and a recommended fix — retrieved from 15 real-world outage postmortems (AWS, Cloudflare, Meta, GitHub, CrowdStrike) — then tracks, serves, and monitors that model through a full MLOps lifecycle, not just a notebook.
-
-```text
-Ticket text → Feast (point-in-time features: recent-incident-count, etc.)
-     → TF-IDF + LogReg classifier (MLflow-tracked, registered)
-     → ONNX export → Triton / ONNX Runtime serving
-     → TF-IDF retrieval over real postmortem KB → suggested root cause + fix
-     → FastAPI (/classify /recommend /resolve)
-Evidently drift report (live traffic vs. training baseline) → flags incident
-     storms and feature-pipeline breaks before they silently degrade predictions
-```
-
-- Feast feature store — same materialized features at train and serve time, no train/serve skew
-- MLflow experiment tracking + model registry for both the category and severity heads
-- ONNX export served two ways: Triton (dynamic batching, GPU-ready config) locally, lightweight FastAPI+ONNX Runtime on AWS free-tier EC2 — documented tradeoff, not a shortcut
-- Evidently AI drift monitoring with a CI-friendly alert gate on drifted feature share
-- KServe manifest included as the documented production path (scale-to-zero) — not live-deployed, since a real k8s cluster costs money outside any free tier
-- GPU handling made explicit: CUDA → Apple MPS → CPU auto-detection for an optional transformer backend; free-tier demo intentionally runs the CPU-cheap path
-
-**What it proves:** the same production-MLOps discipline — feature stores, model registries, drift monitoring, GPU-aware serving — applied to a genuinely useful SRE tool, on a $0 infrastructure budget, with every free-tier tradeoff stated instead of hidden.
-**Stack:** Python · MLflow · Feast · Triton Inference Server · ONNX Runtime · Evidently AI · FastAPI · Terraform · GitHub Actions
-
----
-
-### 📡 [AIPulse Lakehouse](https://github.com/core-intel-forge/AI-pulse-lakehouse) — Real-Time + Batch AI-Trends Lakehouse, Built on a $0 Production-Pattern Stack
-
-Watches the AI world (arXiv, Hacker News, GitHub) for emerging signal — new agent frameworks, multimodal models, trending repos — and turns it into a versioned, queryable trend dataset every day, using the exact medallion-lakehouse stack real Data Engineering teams run.
-
-```text
-3 free-API producers → Kafka (Redpanda) → Spark Structured Streaming (trigger-once)
-     → Bronze (raw, replayable) → Silver (dedup + unify + keyword-tag)
-     → Gold (7d rolling trend deltas, top movers) → DVC-versioned snapshot
-     → Warehouse load (DuckDB / Snowflake, swappable) → daily Markdown digest
-Airflow DAG orchestrates all of it, on a schedule, end-to-end
-```
-
-- Genuine Spark Structured Streaming (not batch-pretending-to-stream) — `trigger(once=True)` for cost-efficient daily runs, same code path scales to true real-time with a one-line trigger change
-- Every day's Gold dataset is DVC-versioned — `git checkout <date> && dvc pull` reproduces exactly what "trending in AI" looked like on any past day
-- Warehouse layer is pluggable by design: DuckDB by default ($0 forever), Snowflake behind one env var for the enterprise-stack demo — same DDL, same SQL, zero code drift
-- Entire stack (Kafka, Spark, Airflow, MinIO/S3) runs in Docker on a laptop — no cloud spend, no cluster billing
-
-**What it proves:** real lakehouse engineering discipline — streaming ingestion, medallion architecture, dataset reproducibility, and orchestration — not a notebook that pulls an API once.
-**Stack:** Apache Kafka (Redpanda) · Apache Spark (Structured Streaming) · Apache Airflow · DVC · Snowflake / DuckDB · MinIO (S3) · Docker
-
----
 
 ### 🧪 [solo-sre-project](https://github.com/E-Vanika/solo-sre-project) — Personal SRE Environment
 
@@ -288,31 +218,6 @@ A self-directed cloud engineering and SRE environment where I validate ideas bef
 
 **What it proves:** the same SRE approach I use at work, exercised end-to-end on my own infrastructure.
 **Stack:** Terraform · Python · Bash · Prometheus · Grafana · OTEL
-
----
-
-### 🌐 [Networking-A-to-Z](https://github.com/E-Vanika/Networking-A-to-Z) — Cloud Networking Fundamentals
-
-Most "networking" repos on GitHub are one VM with a security group and a README. This one goes deeper by design — every concept implemented, not just read about, at $0 cost on Oracle Cloud's Always Free tier.
-
-- Two VCNs peered with non-overlapping CIDR blocks (`10.0.0.0/16` and `10.1.0.0/16`)
-- Fully isolated private subnet with zero direct internet path
-- Real encrypted hybrid tunnel (WireGuard) connecting on-prem to cloud
-- Every piece backed by Terraform — version-controlled, reviewable, deployable
-- CI/CD pipeline — plan-on-PR, apply-on-approval workflow
-
-```text
-On-Prem (home network)
-    ↓ WireGuard UDP 51820 (encrypted hybrid tunnel)
-Web Tier VCN (10.0.0.0/16) — Internet Gateway, Public Subnet, e2-micro VM (WireGuard + Nginx)
-    ↓ Local Peering Gateway
-App Tier VCN (10.1.0.0/16) — Private Subnet, App tier VM (no public IP)
-```
-
-Documented in depth: OSI fundamentals through DDoS mitigation, OCI-vs-AWS networking fluency, production-equivalent mappings, and a working hybrid VPN setup guide.
-
-**What it proves:** real networking fluency — not console clicking — with cross-cloud concepts mapped to production equivalents.
-**Stack:** Terraform · Oracle Cloud Infrastructure · WireGuard · VCN Peering · Security Lists · CI/CD
 
 ---
 
