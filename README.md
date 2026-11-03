@@ -176,48 +176,56 @@ I write about production Kubernetes and platform-engineering patterns — the op
 
 ## 📂 Personal Projects
 
-*Seven projects, one thread: production SRE discipline — GitOps, IaC, observability, security, and AI-assisted operations — applied end-to-end to systems I built myself, at $0 infrastructure cost.*
+*Four public projects, one thread: product thinking backed by production SRE discipline—GitOps, IaC, observability, security, safe AI, and reliable delivery.*
 
-### 🧬 [Morphos Core](https://github.com/E-Vanika/morphos-core) — Domain-Agnostic AI Marketplace Platform
+### ✦ [Monika Glam Up](https://monika-glamup.vercel.app/) — AI-Enabled Service Platform
 
-A **hyper-variablized, domain-agnostic marketplace and booking engine** that can morph its brand identity, domain behaviour, and AI knowledge without changing application code — one codebase, many verticals.
+A live bridal-services platform with a grounded AI concierge, private enquiries, public reviews, administrator-managed content, and an MCP interface. The same maintained Next.js codebase also serves **Crafts by Vani** and **Mamo Self Care** while keeping each experience distinct.
 
 ```text
-                    ┌─────────────────────┐
-                    │   ONE CODEBASE      │
-                    └──────────┬──────────┘
-                               │
-                    Environment Configuration
-                               │
-                   ┌────────────┼────────────┐
-                   ↓            ↓            ↓
-             Beauty / Bridal Art / Craft New Vertical
-                   │            │            │
-                   └────────────┼────────────┘
-                                ↓
-                     Domain-specific AI → RAG Knowledge
-                     → Semantic Vector Search → MCP Capabilities
+Visitor → Next.js experience → grounded AI concierge → service knowledge
+                         ↘ private enquiry → Google Sheets workflow
+One codebase → Monika Glam Up | Crafts by Vani | Mamo Self Care
 ```
 
-**What it proves:** thinking beyond infrastructure — platform engineering → AI architecture → retrieval → application behaviour → deployment → security → operations, in a single system.
-**Stack:** RAG · Vector Search · MCP · Multi-tenant config-driven architecture
+**What it proves:** I can carry an AI-enabled product from domain design and retrieval through customer experience, integrations, deployment controls, and day-two operations.
+
+**Stack:** Next.js · RAG · MCP · Google Sheets · Supabase · Vercel
+
+**Source:** [github.com/E-Vanika/morphos-core](https://github.com/E-Vanika/morphos-core)
 
 ---
 
+### ⚡ [Zippy Kiddo](https://zippy-kiddo.129-225-85-54.sslip.io) — Safety-Aware Activity Recommender
 
-### 🧪 [solo-sre-project](https://github.com/E-Vanika/solo-sre-project) — Personal SRE Environment
+A privacy-conscious recommendation product that helps parents find practical activities for children aged 3–12 using age, time, setting, energy, supervision, and materials already available.
 
-A self-directed cloud engineering and SRE environment where I validate ideas before they reach production — multi-region disaster recovery strategies, Kubernetes platform patterns, CI/CD approaches, IaC design standards, observability implementations, and cloud security patterns.
+- Deterministic eligibility and safety rules remain authoritative
+- A compact trained ranker improves ordering and falls back safely when unavailable
+- Checksum-pinned model artifacts and quality gates make the ML lifecycle traceable
+- Terraform, Ansible, immutable images, readiness checks, rollback, and external smoke tests operate the OCI deployment
 
-- **Infrastructure as Code** (Terraform/HCL) for repeatable, versioned infrastructure
-- **Python automation** for operational tooling and AWS resource management
-- **Shell scripting** for system automation and deployment workflows
-- **Containerisation** for portable, immutable workloads
-- **Grafana, vm-agent, OTEL, Prometheus** for observability
-- **Caddy** as a lightweight Istio replacement
+**What it proves:** useful ML can improve a product without becoming the authority for safety, and a small service can still have a disciplined model and release lifecycle.
 
-**What it proves:** the same SRE approach I use at work, exercised end-to-end on my own infrastructure.
-**Stack:** Terraform · Python · Bash · Prometheus · Grafana · OTEL
+**Stack:** FastAPI · ML ranking · OCI · Terraform · Ansible · GHCR
+
+**Source:** [github.com/E-Vanika/zippy-kiddo](https://github.com/E-Vanika/zippy-kiddo)
+
+---
+
+### 🧪 [Single-VM SRE Platform](https://github.com/E-Vanika/solo-sre-project) — Reliability Engineering Lab
+
+A production-like reliability system running on one resource-constrained OCI VM. It makes the operational controls visible without overstating what a single-node architecture can guarantee.
+
+- **Safe delivery:** immutable Git-SHA images, serialized deployments, readiness gates, deterministic rollback, and external revision checks
+- **Reliability management:** a realistic 99.0% SLO, error budget, multi-window burn-rate policy, escalation guidance, and runbooks
+- **Observability:** RED application metrics, USE host metrics, Grafana dashboards, and OpenTelemetry traces across services
+- **Resilience evidence:** controlled process, CPU, memory, and disk failure drills plus a documented blameless postmortem
+- **Honest boundary:** two application processes provide process redundancy—not host or availability-zone redundancy
+
+**What it proves:** reliability is a set of explicit controls, evidence, and trade-offs—not a Kubernetes logo or an inflated availability claim.
+
+**Stack:** Terraform · Ansible · Docker · Caddy · OpenTelemetry · Grafana
 
 ---
 
