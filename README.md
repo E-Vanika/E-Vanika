@@ -3,7 +3,7 @@
 # Hi, I'm Vanika 👋
 
 ### Senior SRE · Cloud Platform Engineer
-**Kubernetes · AWS · Terraform · Observability · Automation**
+**Hands-on Technical Leadership · Kubernetes · AWS · Terraform · Observability · Automation · Applied AI**
 
 I build and operate **reliable, secure, observable, and cost-efficient cloud platforms** across development, staging, and production environments.
 
@@ -23,6 +23,7 @@ I build and operate **reliable, secure, observable, and cost-efficient cloud pla
 
 | Area | Impact |
 |---|---|
+| 👥 Technical Leadership | Lead day-to-day delivery, mentoring, sprint priorities, and on-call coordination for **5 SRE/DevOps engineers** while remaining hands-on |
 | 🌎 Cloud Operations | Operated and improved platforms across **30+ Dev, Stage & Production environments** |
 | ⚙️ Infrastructure Automation | **~80%** less deployment effort via Terraform/Terragrunt + GitHub Actions |
 | 🧩 IaC Standardisation | **~60–70%** less infra code duplication through Terragrunt migration & reusable modules |
@@ -30,6 +31,9 @@ I build and operate **reliable, secure, observable, and cost-efficient cloud pla
 | 🔐 Cloud Security | **~80–90%** lower credential-management overhead via OIDC, no long-lived AWS keys |
 | ☸️ Kubernetes Reliability | **~90%** less manual intervention via recovery automation & self-healing |
 | 🔭 Observability | **~80%** less troubleshooting effort via logging, Grafana & alerting improvements |
+| 📡 Monitoring at Scale | Centralised Prometheus/Grafana dashboards and real-time alerts across **50+ services** |
+| ⏱️ Incident Outcomes | **35% lower MTTR** for tier-1 services through automated runbook triggers and PagerDuty escalation |
+| 🛠️ Toil Reduction | Saved **15 hours of manual work per week** through Python/Bash operational automation |
 | 💰 Cost Optimisation | **~33%** infrastructure cost savings via right-sizing, cache modernisation, RI governance |
 | 🚨 Incident Response | First-responder on-call, ~2–3 min alert acknowledgement, triage & mitigation |
 | 🌐 Disaster Recovery | Designed & tested active-passive, cross-region recovery with automated RDS snapshot replication |
@@ -43,14 +47,16 @@ I build and operate **reliable, secure, observable, and cost-efficient cloud pla
 ### Comcast — Development Engineer III
 **Apr 2023 – Present** · *Site Reliability Engineering · Cloud Platform Engineering*
 
+- Lead the day-to-day work of **5 SRE and DevOps engineers**—sprint priorities, delivery follow-up, on-call coordination, reviews, and mentoring—while remaining hands-on with production engineering
 - Operated and improved cloud platforms across **30+ environments**, ramping onto on-call quickly and becoming a go-to person for platform support within a short tenure
 - Took single-handed, end-to-end ownership of the **core-optical platform** — infrastructure, GitOps, CI/CD, secrets, monitoring, and a CronJob → Deployment scalability refactor — from provisioning through production
 - Led major portions of a business-critical **Prod/Dev/Stage regional migration**: RDS, ElastiCache, and MemoryDB backup/restore, S3 replication, DNS cutover, node scaling, and post-migration cleanup
 - Designed, built, and tested an **active-passive disaster-recovery pipeline** — evaluated three RDS replication strategies, selected cross-region snapshot copy, and automated it end-to-end with a Python/Terraform-deployed Lambda
 - Delivered **~33%** cache infrastructure cost savings through a Redis → Valkey migration across Dev, Stage, and Production
-- Performed critical **EKS upgrades (1.28/1.29 → 1.31 → 1.32)** and **RDS PostgreSQL upgrades (15.4 → 16.4)** across multi-region production platforms, each backed by a documented SMOP
+- Performed multi-generation **EKS upgrades across the 1.2x and 1.3x release lines** and **RDS PostgreSQL upgrades across 10.x, 13.x, 15.x, and 16.x generations** in multi-region environments, including controlled production plans and documented SMOPs
 - Standardised **GitHub Actions** across repositories, replacing long-lived PATs with OIDC/GitHub App authentication, and built reusable workflows for Slack PR notifications, release notes, and drift validation
 - Automated secrets and credential rotation using **HashiCorp Vault and AWS Secrets Manager**; led the CrowdStrike rollout that replaced Uptycs across environments
+- Modernised Kubernetes delivery and networking with pod-IP ALB targets, readiness gates, HPA signals, and weighted listener rules; contributed to IPv4 → IPv6 migrations and private/WAF-protected platform access
 - Built and shared an **AI-assisted SRE skills platform** and a **service-flow/architecture-discovery agent** with the wider organisation, presenting the initiative to VP-level leadership and using it to independently resolve production incidents
 - Maintained **~2–3 minute** on-call alert acknowledgement; consistently rated a strong, reliable performer and recognised as embedded SRE for the application
 
@@ -60,6 +66,9 @@ I build and operate **reliable, secure, observable, and cost-efficient cloud pla
 - Provisioned cloud infrastructure using Terraform; managed Dev, QA, and Production environments
 - Built and optimised Docker images; managed Kubernetes workloads on Azure
 - Supported end-to-end CI/CD build and release processes across teams
+- Designed centralised Prometheus/Grafana dashboards and real-time CPU, memory, latency, and HTTP-error alerting across **50+ services**
+- Reduced MTTR by **35%** for tier-1 production services using automated runbook triggers and PagerDuty escalation workflows
+- Built Python/Bash automation for log rotation, database failover, and certificate renewal, saving **15 hours of manual toil per week**
 
 <br>
 
@@ -78,6 +87,24 @@ I build and operate **reliable, secure, observable, and cost-efficient cloud pla
 - Standardise engineering approaches across repositories and environments
 - Build operational tooling with **Python and Bash**
 - Partner with developers, QA, security, and platform teams during delivery and incidents
+- Lead and mentor SRE/DevOps engineers while coordinating delivery priorities and on-call readiness
+
+<br>
+
+## 🧭 Experience & Work Coverage
+
+| Engineering Domain | Selected Work |
+|---|---|
+| **Technical Leadership** | Lead five SRE/DevOps engineers; coordinate sprint priorities, delivery follow-up, reviews, mentoring, stakeholder alignment, and on-call rotations while remaining hands-on |
+| **Kubernetes Platform Lifecycle** | Multi-generation EKS upgrades, control-plane/node/add-on lifecycle, Amazon Linux 2023, HPA/resource limits, pod readiness gates, Robusta, KRR, FluxCD, and Argo CD evaluation |
+| **Cloud & Regional Architecture** | AWS platform delivery, active-passive DR, active-active improvements, multi-region migrations, IPv4 → IPv6 VPC/EKS migration, partner environment provisioning, and capacity planning |
+| **Data Platforms** | RDS PostgreSQL major/minor upgrades, Aurora, RDS Proxy, failover handling, backup/restore, cross-region snapshots, MemoryDB, ElastiCache, Redis → Valkey, and Kinesis performance work |
+| **Delivery Engineering** | GitHub Actions standardisation, OIDC/GitHub Apps, ECR delivery, reusable workflows, drift validation, release automation, GitOps bootstrap, and controlled rollout patterns |
+| **Observability & Incidents** | Prometheus, Grafana, CloudWatch, PagerDuty, Datadog, RED/USE signals, central alert dashboards, runbooks, escalation policy, on-call response, and incident intelligence |
+| **Security & Identity** | IAM/IRSA, private EKS APIs, WAF, mTLS/JWT, Vault/Secrets Manager/External Secrets, certificate automation, CrowdStrike, security scanning, and credential rotation |
+| **Applied AI for SRE** | AWS Bedrock operational specialists, MCP, service-flow discovery, architecture generation, recent-change analysis, Grafana correlation, incident history, and reusable SRE skills |
+| **Automation & Reliability** | Python/Bash/Lambda automation, firmware upgrade automation, operational APIs, database failover tooling, certificate renewal, log management, health checks, and recovery workflows |
+| **SRE Operating Model** | Service onboarding, operational readiness, incident intake, escalation governance, maintenance workstreams, technical-debt visibility, and runbook ownership |
 
 <br>
 
@@ -127,7 +154,7 @@ That means turning scattered operational knowledge into something engineers can 
 
 **My AI/SRE work includes:**
 
-`AI-assisted SRE skills platform` `AI agents for AWS, K8s, CI/CD & databases` `AI-assisted incident investigation` `AI-powered service-flow discovery` `Grafana abnormality analysis` `Git commit/PR change correlation` `Jira ↔ deployment correlation` `Slack incident-history search` `MCP-based knowledge integration` `AI-assisted architecture generation`
+`AWS Bedrock operational specialists` `AI-assisted SRE skills platform` `AI agents for AWS, K8s, CI/CD & databases` `AI-assisted incident investigation` `AI-powered service-flow discovery` `Grafana abnormality analysis` `Git commit/PR change correlation` `Jira ↔ deployment correlation` `Slack incident-history search` `MCP-based knowledge integration` `AI-assisted architecture generation`
 
 <details>
 <summary><b>🤖 AI for SRE — Selected Work (click to expand)</b></summary>
@@ -160,6 +187,9 @@ Built around the question: *"What changed, what is broken, have we seen this bef
 Capabilities: `investigate_recent_changes`, GitOps commit/PR analysis, Jira ticket extraction, image-tag change detection, Grafana dashboard querying, AWS service/dependency context, Slack + historical incident search.
 
 This shifts observability from a simple `Metric → Alert` flow into a full investigation chain: **Metric → Alert → Recent Changes → Deployment Correlation → Grafana Context → Incident History → Likely Investigation Path.**
+
+### 5. AWS Bedrock Operational Specialists
+Implemented AI-assisted specialists for AWS, Kubernetes, security, monitoring, documentation, incident response, and database operations. Connected them to approved operational systems—including CI/CD, Flux, Prometheus, PagerDuty, Vault, Jira, and AWS resources—to improve diagnosis and reduce repetitive SRE work while keeping engineers in control.
 
 </details>
 
@@ -253,12 +283,27 @@ A personal engineering portfolio treated as a real deliverable, not a static pag
 <br>
 
 - Performed critical EKS upgrades across Dev, Stage, and Production, including multi-region migrations from Kubernetes **1.28/1.29 → 1.31 → 1.32**
+- Continued multi-generation EKS lifecycle work through later releases, including control-plane, node-group, add-on, and Amazon Linux 2023 worker-node upgrades
 - Created EKS clusters and supporting infrastructure through Terraform
 - Implemented Kubernetes health and recovery mechanisms; investigated pod eviction and workload reliability issues
 - Implemented GitOps repository structures for Flux reconciliation
 - Implemented Robusta for Kubernetes event monitoring and deployed KRR for resource-optimisation recommendations
+- Implemented resource limits and horizontal pod autoscaling across applications to improve stability and reduce resource contention
 
 **SRE focus:** availability · recoverability · safe upgrades · operational visibility · capacity management
+</details>
+
+<details>
+<summary><b>🌐 Kubernetes Networking & Platform Modernisation</b></summary>
+<br>
+
+- Migrated application traffic from instance targets to **pod-IP targets** through AWS ALB and the AWS Load Balancer Controller
+- Used Pod Readiness Gates, TargetGroupBinding, HPA metrics, and weighted listener rules for controlled rollout and better autoscaling behaviour
+- Contributed to staging and QA **IPv4 → IPv6** VPC/EKS migrations across regions
+- Improved Kubernetes control-plane security by moving toward private API endpoints with controlled VPN access
+- Validated WAF-protected external access patterns before broader rollout
+
+**Result:** fewer unnecessary network hops, safer rollout controls, more efficient node sharing, and stronger platform access boundaries.
 </details>
 
 <details>
@@ -279,11 +324,25 @@ Designed and tested an active-passive DR approach for production workloads:
 <summary><b>🔭 Observability & Incident Intelligence</b></summary>
 <br>
 
+- Designed centralised Prometheus/Grafana monitoring and real-time alerting across **50+ services**
+- Reduced tier-1 service MTTR by **35%** through automated runbook triggers and PagerDuty escalation workflows
 - Built consolidated dashboards mapped to critical application alerts and Grafana panels
 - Created CloudWatch alerts, periodic alert-state summaries, and Slack alert routing
 - Added pod-restart monitoring and Grafana dashboards for IAM, IP, and infrastructure metrics
 - Investigated and fixed Fluent Bit / Helm chart issues affecting log delivery reliability
 - Responded to production alerts on-call with ~2–3 minute acknowledgement, tracked incident/JIRA follow-ups, and documented learnings for future responders
+</details>
+
+<details>
+<summary><b>👥 Technical Leadership & SRE Operating Model</b></summary>
+<br>
+
+- Lead the day-to-day work of **5 SRE and DevOps engineers** while remaining hands-on with production engineering
+- Coordinate sprint planning, task priorities, delivery follow-up, reviews, mentoring, and on-call rotations
+- Partner with product and engineering stakeholders on platform priorities, delivery risk, and infrastructure-roadmap work
+- Established repeatable SRE onboarding and operational-intake practices for services moving into production support
+
+**Leadership scope:** technical and people leadership without overstating formal management authority.
 </details>
 
 <details>
@@ -315,8 +374,11 @@ Designed and tested an active-passive DR approach for production workloads:
 
 - Implemented GitHub Actions OIDC authentication and removed long-lived AWS credentials from CI/CD
 - Automated secrets creation using **HashiCorp Vault** and Terraform; used AWS Secrets Manager for platform secrets
+- Led discovery and phased migration of application secrets from Vault toward supported secrets platforms, documenting dependencies and rollout sequencing
 - Removed unused IAM users, hardened permissive security groups, remediated open SSH access and permissive SQS policies
 - Supported CrowdStrike rollout and migration away from Uptycs as part of a security tooling transition
+- Improved Kubernetes API security through private endpoints and controlled VPN access; validated WAF-protected external-access patterns
+- Delivered certificate-lifecycle automation and renewal-readiness work for shorter certificate validity periods
 </details>
 
 <details>
@@ -336,9 +398,11 @@ Designed and tested an active-passive DR approach for production workloads:
 <summary><b>🗄️ Database & Data Platform Reliability</b></summary>
 <br>
 
-**Amazon RDS / PostgreSQL:** upgraded PostgreSQL 15.4 → 16.4, tested extension compatibility and Global Writer Endpoint behaviour, implemented failover-handling changes, deployed RDS Proxy, migrated infrastructure to Terragrunt, and built cross-region snapshot-copy automation for DR.
+**Amazon RDS / PostgreSQL:** delivered major and minor upgrade paths across PostgreSQL 10.x, 13.x, 15.x, and 16.x generations; tested extension compatibility and Global Writer Endpoint behaviour; implemented failover-handling changes; deployed RDS Proxy; migrated infrastructure to Terragrunt; and built cross-region snapshot-copy automation for DR.
 
 **Cache platforms:** worked with ElastiCache and MemoryDB, migrated Redis workloads to Valkey, and used resource/workload analysis to drive cost optimisation.
+
+**Streaming & performance:** improved Kinesis performance and efficiency across application projects, including a development implementation with approximately **50% faster write times**.
 </details>
 
 <details>
@@ -352,6 +416,28 @@ Designed and tested an active-passive DR approach for production workloads:
 - Investigated production API failures, resolved pod eviction issues, and fixed CloudWatch log delivery problems
 </details>
 
+<details>
+<summary><b>🧰 Release, Upgrade & Device Automation</b></summary>
+<br>
+
+- Built scripts to preload, reboot, and validate firmware upgrades across multiple hardware variants
+- Added Ansible automation, prechecks, postchecks, version validation, and idempotent reboot handling for safer repeatable upgrades
+- Resolved gRPC timeout and version-comparison issues that could otherwise report compliant devices as failures
+- Established an HTTPS file server to improve firmware-download performance and replace slower transfer behaviour
+- Strengthened release validation, communication, test evidence, and rollback readiness across application delivery
+</details>
+
+<details>
+<summary><b>🏢 Platform Onboarding, Partner Environments & Governance</b></summary>
+<br>
+
+- Built repeatable partner QA and preproduction environments using AWS, EKS, RDS, IAM, GitHub Actions, and an approved syndication framework
+- Improved provisioning through one-touch deployment enhancements and migrated delivery pipelines to the approved framework
+- Established and documented SRE onboarding for applications and critical services entering operational support
+- Created structured workstreams for on-call response, escalations, urgent platform requests, maintenance, alerting, dashboards, runbooks, and longer-horizon technical debt
+- Partnered with product and engineering stakeholders to make operational ownership, priorities, delivery risks, and support readiness visible
+</details>
+
 <br>
 
 ## 🤖 Automation & Operational Tooling
@@ -363,6 +449,7 @@ A major part of my SRE approach is replacing repetitive operational work with au
 - Workflow inventory collection across repositories and GitHub Actions workflow-trigger APIs
 - Automated RDS scaling, release-note generation, Grafana dashboard backups, and KRR resource reports
 - Automated secrets-management workflows and operational alert routing
+- Python/Bash automation for log rotation, database failover, and certificate renewal, saving **15 hours of manual toil per week**
 
 <br>
 
@@ -371,13 +458,13 @@ A major part of my SRE approach is replacing repetitive operational work with au
 | Category | Technologies |
 |---|---|
 | **Cloud** | AWS · Microsoft Azure · Oracle Cloud Infrastructure |
-| **Kubernetes & Platform** | Kubernetes · Amazon EKS · Helm · FluxCD · ArgoCD · Istio · Kong |
+| **Kubernetes & Platform** | Kubernetes · Amazon EKS · Helm · FluxCD · ArgoCD · Istio · Kong · AWS Load Balancer Controller · HPA |
 | **Infrastructure as Code** | Terraform · Terragrunt · GitOps |
 | **CI/CD** | GitHub Actions · GitHub Apps · OIDC |
-| **Observability** | Prometheus · Grafana · CloudWatch · Robusta · KRR · Fluent Bit |
-| **Security & Networking** | HashiCorp Vault · AWS Secrets Manager · IAM · KMS · OIDC · CrowdStrike · WireGuard |
+| **Observability** | Prometheus · Grafana · CloudWatch · PagerDuty · Datadog · Robusta · KRR · Fluent Bit |
+| **Security & Networking** | HashiCorp Vault · AWS Secrets Manager · External Secrets · IAM · IRSA · KMS · OIDC · WAF · CrowdStrike · WireGuard · IPv6 |
 | **Databases & Data Services** | RDS PostgreSQL · RDS Proxy · ElastiCache · MemoryDB · Valkey · ECR · S3 |
-| **Automation** | Python · Bash · AWS Lambda |
+| **Automation & AI** | Python · Bash · AWS Lambda · AWS Bedrock · MCP · AI agents |
 
 <br>
 
@@ -391,17 +478,15 @@ My goal is not simply to close incidents. **The goal is to make the next inciden
 
 <br>
 
-## 🎓 Education & Certifications
+## 🎓 Education
 
 | Degree | Institution | Score |
 |---|---|---|
 | Master of Computer Applications (MCA) | Anna University | 91% |
-| B.Sc. Computer Science | Meenakshi Academy of Higher Education and Research University | 86% |
-| HSC (Computer Science) | Tamil Nadu State Board | 89% |
-| SSLC | Tamil Nadu State Board | 93.4% |
+| B.Sc. Computer Science | Maher University | 86% |
 
-- **Microsoft Certified: Azure Fundamentals (AZ-900)**
-- **Microsoft Certified: Azure Administrator (AZ-104)** *(Issued Dec 2022 · Expired Dec 2023)*
+### Recognition
+
 - **Accolade Champagne Award** — Recognised for building a complete production-ready cloud environment from scratch in ~1–2 days
 
 <br>
