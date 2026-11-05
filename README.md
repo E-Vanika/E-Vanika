@@ -9,7 +9,7 @@ I build and operate **reliable, secure, observable, and cost-efficient cloud pla
 
 *"Reliability is not just keeping systems up. It's making them easier to operate, safer to change, faster to troubleshoot, and cheaper to run."*
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-e--vanika.github.io-6E40C9?style=for-the-badge&logo=safari&logoColor=white)](https://e-vanika.github.io/Vanika-Portfolio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-e--vanika.github.io-6E40C9?style=for-the-badge&logo=safari&logoColor=white)](https://e-vanika.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-E--Vanika-181717?style=for-the-badge&logo=github)](https://github.com/E-Vanika)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Vanika%20E-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vanika-e)
 [![Email](https://img.shields.io/badge/Email-vanikaraj1%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vanikaraj1@gmail.com)
@@ -259,9 +259,9 @@ A production-like reliability system running on one resource-constrained OCI VM.
 
 ---
 
-### 💼 [Vanika Portfolio](https://github.com/E-Vanika/Vanika-Portfolio) — Personal Site, Built Like Production Software
+### 💼 [Vanika Portfolio](https://github.com/E-Vanika/E-Vanika.github.io) — Personal Site, Built Like Production Software
 
-🔗 **Live:** [e-vanika.github.io/Vanika-Portfolio](https://e-vanika.github.io/Vanika-Portfolio)
+🔗 **Live:** [e-vanika.github.io](https://e-vanika.github.io)
 
 A personal engineering portfolio treated as a real deliverable, not a static page — the CI/CD discipline is the point.
 
@@ -501,7 +501,7 @@ My goal is not simply to close incidents. **The goal is to make the next inciden
 
 **SRE · Kubernetes · AWS · Terraform · Platform Engineering · Observability · Cloud Security · Automation · Disaster Recovery · Networking**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-6E40C9?style=for-the-badge&logo=safari&logoColor=white)](https://e-vanika.github.io/Vanika-Portfolio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-6E40C9?style=for-the-badge&logo=safari&logoColor=white)](https://e-vanika.github.io)
 [![Email](https://img.shields.io/badge/Email-vanikaraj1%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vanikaraj1@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Vanika%20E-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vanika-e)
 [![GitHub](https://img.shields.io/badge/GitHub-E--Vanika-181717?style=for-the-badge&logo=github)](https://github.com/E-Vanika)
