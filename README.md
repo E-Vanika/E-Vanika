@@ -34,7 +34,7 @@ I build and operate **reliable, secure, observable, and cost-efficient cloud pla
 | 📡 Monitoring at Scale | Centralised Prometheus/Grafana dashboards and real-time alerts across **50+ services** |
 | ⏱️ Incident Outcomes | **35% lower MTTR** for tier-1 services through automated runbook triggers and PagerDuty escalation |
 | 🛠️ Toil Reduction | Saved **15 hours of manual work per week** through Python/Bash operational automation |
-| 💰 Cost Optimisation | **~33%** infrastructure cost savings via right-sizing, cache modernisation, RI governance |
+| 💰 Cost Optimisation | **~$178,428/year recurring savings** plus **$1,431 one-time savings** through evidence-led AWS infrastructure optimisation |
 | 🚨 Incident Response | First-responder on-call, ~2–3 min alert acknowledgement, triage & mitigation |
 | 🌐 Disaster Recovery | Designed & tested active-passive, cross-region recovery with automated RDS snapshot replication |
 
@@ -52,12 +52,15 @@ I build and operate **reliable, secure, observable, and cost-efficient cloud pla
 - Took single-handed, end-to-end ownership of the **core-optical platform** — infrastructure, GitOps, CI/CD, secrets, monitoring, and a CronJob → Deployment scalability refactor — from provisioning through production
 - Led major portions of a business-critical **Prod/Dev/Stage regional migration**: RDS, ElastiCache, and MemoryDB backup/restore, S3 replication, DNS cutover, node scaling, and post-migration cleanup
 - Designed, built, and tested an **active-passive disaster-recovery pipeline** — evaluated three RDS replication strategies, selected cross-region snapshot copy, and automated it end-to-end with a Python/Terraform-deployed Lambda
-- Delivered **~33%** cache infrastructure cost savings through a Redis → Valkey migration across Dev, Stage, and Production
+- Delivered approximately **$178,428 in recurring infrastructure savings per year**, plus **$1,431 in one-time S3 savings**, through EBS, RDS storage, ElastiCache, MemoryDB/Valkey, and lifecycle optimisation
 - Performed multi-generation **EKS upgrades across the 1.2x and 1.3x release lines** and **RDS PostgreSQL upgrades across 10.x, 13.x, 15.x, and 16.x generations** in multi-region environments, including controlled production plans and documented SMOPs
-- Standardised **GitHub Actions** across repositories, replacing long-lived PATs with OIDC/GitHub App authentication, and built reusable workflows for Slack PR notifications, release notes, and drift validation
+- Initiated and led a **Terraform-to-Terragrunt migration** spanning EKS, RDS, S3, cache platforms, IAM, CI/CD, secrets, and shared data sources; the reusable approach was subsequently followed by other applications
+- Led **GitHub Actions standardisation across 23 application repositories**, replacing long-lived credentials with OIDC/GitHub App authentication and adding reusable controls, notifications, SonarQube scanning, and governance checks
+- Built a controlled **RDS failover workflow** supporting both dry-run validation and complete failover from one workflow trigger
 - Automated secrets and credential rotation using **HashiCorp Vault and AWS Secrets Manager**; led the CrowdStrike rollout that replaced Uptycs across environments
+- Strengthened CI/CD supply-chain integrity through exact dependency versioning, committed Terraform lockfiles, multi-platform provider checksums, CI validation controls, and standardized runtime-image remediation
 - Modernised Kubernetes delivery and networking with pod-IP ALB targets, readiness gates, HPA signals, and weighted listener rules; contributed to IPv4 → IPv6 migrations and private/WAF-protected platform access
-- Built and shared an **AI-assisted SRE skills platform** and a **service-flow/architecture-discovery agent** with the wider organisation, presenting the initiative to VP-level leadership and using it to independently resolve production incidents
+- Built and shared an **AI-assisted SRE skills platform**, Service Flow Analyzer, Wiki Search MCP server, Sentinel investigation capabilities, and repository-to-architecture workflows; demonstrated them through team sessions, Lab Week, a Brown Bag, and senior-leadership discussions
 - Maintained **~2–3 minute** on-call alert acknowledgement; consistently rated a strong, reliable performer and recognised as embedded SRE for the application
 
 ### ATOS — DevOps Engineer
@@ -99,11 +102,11 @@ I build and operate **reliable, secure, observable, and cost-efficient cloud pla
 | **Kubernetes Platform Lifecycle** | Multi-generation EKS upgrades, control-plane/node/add-on lifecycle, Amazon Linux 2023, HPA/resource limits, pod readiness gates, Robusta, KRR, FluxCD, and Argo CD evaluation |
 | **Cloud & Regional Architecture** | AWS platform delivery, active-passive DR, active-active improvements, multi-region migrations, IPv4 → IPv6 VPC/EKS migration, partner environment provisioning, and capacity planning |
 | **Data Platforms** | RDS PostgreSQL major/minor upgrades, Aurora, RDS Proxy, failover handling, backup/restore, cross-region snapshots, MemoryDB, ElastiCache, Redis → Valkey, and Kinesis performance work |
-| **Delivery Engineering** | GitHub Actions standardisation, OIDC/GitHub Apps, ECR delivery, reusable workflows, drift validation, release automation, GitOps bootstrap, and controlled rollout patterns |
+| **Delivery Engineering** | GitHub Actions standardisation across 23 repositories, OIDC/GitHub Apps, ECR delivery, reusable controls and notifications, SonarQube, drift validation, release automation, GitOps bootstrap, and controlled rollout patterns |
 | **Observability & Incidents** | Prometheus, Grafana, CloudWatch, PagerDuty, Datadog, RED/USE signals, central alert dashboards, runbooks, escalation policy, on-call response, and incident intelligence |
-| **Security & Identity** | IAM/IRSA, private EKS APIs, WAF, mTLS/JWT, Vault/Secrets Manager/External Secrets, certificate automation, CrowdStrike, security scanning, and credential rotation |
-| **Applied AI for SRE** | AWS Bedrock operational specialists, MCP, service-flow discovery, architecture generation, recent-change analysis, Grafana correlation, incident history, and reusable SRE skills |
-| **Automation & Reliability** | Python/Bash/Lambda automation, firmware upgrade automation, operational APIs, database failover tooling, certificate renewal, log management, health checks, and recovery workflows |
+| **Security & Identity** | IAM/IRSA, private EKS APIs, WAF, mTLS/JWT, Vault/Secrets Manager/External Secrets, certificate automation, CrowdStrike, OIDC, exact dependency pinning, Terraform lockfiles/provider checksums, SonarQube, and credential rotation |
+| **Applied AI for SRE** | AWS Bedrock operational specialists, MCP, service-flow discovery, repository-to-architecture generation, recent-change analysis, Grafana correlation, incident history, reusable SRE skills, and practical team enablement |
+| **Automation & Reliability** | Python/Bash/Lambda automation, controlled RDS dry-run/full-failover workflow, firmware upgrade automation, operational APIs, certificate renewal, log management, health checks, and recovery workflows |
 | **SRE Operating Model** | Service onboarding, operational readiness, incident intake, escalation governance, maintenance workstreams, technical-debt visibility, and runbook ownership |
 
 <br>
@@ -136,7 +139,7 @@ My work combines **production SRE + platform engineering + automation + observab
 | 🔐 **80–90% lower credential overhead** | OIDC authentication + removal of long-lived AWS credentials |
 | ☸️ **~90% less manual K8s intervention** | Recovery automation, health checks, self-healing patterns |
 | 🔭 **~80% less troubleshooting effort** | Logging, Grafana, alerting and observability improvements |
-| 💰 **~33% infrastructure cost savings** | Valkey migration, right-sizing, RI governance, lifecycle controls |
+| 💰 **~$178,428 recurring annual savings** | EBS, RDS storage, ElastiCache, MemoryDB/Valkey, and lifecycle optimisation, plus $1,431 one-time S3 savings |
 | 🤖 **40–60% less incident investigation** | AI-assisted SRE platform for operational investigation |
 | 🗺️ **70–80% less architecture discovery effort** | AI-powered service-flow and incident-intelligence tooling |
 
@@ -190,6 +193,9 @@ This shifts observability from a simple `Metric → Alert` flow into a full inve
 
 ### 5. AWS Bedrock Operational Specialists
 Implemented AI-assisted specialists for AWS, Kubernetes, security, monitoring, documentation, incident response, and database operations. Connected them to approved operational systems—including CI/CD, Flux, Prometheus, PagerDuty, Vault, Jira, and AWS resources—to improve diagnosis and reduce repetitive SRE work while keeping engineers in control.
+
+### 6. AI Adoption & Knowledge Sharing
+Pioneered team exploration of OpenSpec and OpenCode, demonstrated agentic repository-to-architecture generation to engineering teams, and shared practical AI-for-SRE patterns through Lab Week, a Brown Bag session, wider AI-community discussions, and senior-leadership conversations. The focus was not only building tools, but making the approaches understandable and reusable by other engineers.
 
 </details>
 
@@ -360,10 +366,11 @@ Designed and tested an active-passive DR approach for production workloads:
 <summary><b>🔄 CI/CD & GitHub Actions</b></summary>
 <br>
 
-- Built GitHub Actions pipelines for infrastructure and application delivery; standardised workflows across repositories
+- Built GitHub Actions pipelines for infrastructure and application delivery; led workflow standardisation across **23 application repositories**
 - Implemented **OIDC-based AWS authentication**, replacing long-lived PATs with GitHub App/OIDC patterns
 - Built image build/push pipelines to ECR, release-note automation, and drift-validation workflows
-- Created automation APIs for triggering GitHub Actions and automated RDS scaling operations
+- Added workflow controls and notifications, SonarQube scanning, merge governance, required-workflow rules, and automated documentation checks
+- Created automation APIs for triggering GitHub Actions and controlled RDS scaling and failover operations, including dry-run validation before a complete failover
 
 **Reliability principles:** least privilege · repeatability · immutable delivery · automated validation · reduced manual operations
 </details>
@@ -373,6 +380,8 @@ Designed and tested an active-passive DR approach for production workloads:
 <br>
 
 - Implemented GitHub Actions OIDC authentication and removed long-lived AWS credentials from CI/CD
+- Standardised exact dependency versions, committed Terraform lockfiles, multi-platform provider checksums, and CI validation controls to improve reproducibility and dependency integrity
+- Enabled SonarQube scanning through GitHub Actions and supported standardized base-image vulnerability remediation
 - Automated secrets creation using **HashiCorp Vault** and Terraform; used AWS Secrets Manager for platform secrets
 - Led discovery and phased migration of application secrets from Vault toward supported secrets platforms, documenting dependencies and rollout sequencing
 - Removed unused IAM users, hardened permissive security groups, remediated open SSH access and permissive SQS policies
@@ -385,10 +394,14 @@ Designed and tested an active-passive DR approach for production workloads:
 <summary><b>💰 Cloud Cost Optimisation</b></summary>
 <br>
 
-- Delivered **~33% cache-engine cost reduction** through Redis → Valkey migration
-- Right-sized infrastructure after regional migration; investigated daily cloud-cost spikes
-- Removed unused load balancers, ElastiCache resources, and SQS queues
-- Addressed RDS Reserved Instance expiry risks and S3 lifecycle-policy gaps
+- Delivered approximately **$178,428 in recurring infrastructure savings per year**, plus **$1,431 in one-time S3 savings**, while preserving operational readiness
+- Removed unused EBS volumes across development, staging, and production for approximately **$35,892/year** in savings
+- Optimised RDS storage configuration for approximately **$36,000/year** in savings
+- Removed unused ElastiCache resources across environments for approximately **$73,164/year** in savings
+- Migrated production MemoryDB from Redis to Valkey for approximately **$33,372/year** in savings
+- Implemented an S3 lifecycle policy that generated **$1,431 in one-time savings**
+- Identified five prefixes responsible for approximately **98% of S3 PUT traffic** and documented an aggregation opportunity with a representative potential for roughly **100× lower PUT cost**; this opportunity is not included in booked savings
+- Right-sized infrastructure after regional migration; investigated daily cloud-cost spikes and addressed RI/lifecycle risks
 - Used KRR recommendations for resource optimisation
 
 **Principle:** optimise based on evidence, not blindly on resource size.
@@ -398,7 +411,7 @@ Designed and tested an active-passive DR approach for production workloads:
 <summary><b>🗄️ Database & Data Platform Reliability</b></summary>
 <br>
 
-**Amazon RDS / PostgreSQL:** delivered major and minor upgrade paths across PostgreSQL 10.x, 13.x, 15.x, and 16.x generations; tested extension compatibility and Global Writer Endpoint behaviour; implemented failover-handling changes; deployed RDS Proxy; migrated infrastructure to Terragrunt; and built cross-region snapshot-copy automation for DR.
+**Amazon RDS / PostgreSQL:** delivered major and minor upgrade paths across PostgreSQL 10.x, 13.x, 15.x, and 16.x generations; tested extension compatibility and Global Writer Endpoint behaviour; implemented failover-handling changes; built a workflow supporting both dry-run validation and full failover; deployed RDS Proxy; migrated infrastructure to Terragrunt; and built cross-region snapshot-copy automation for DR.
 
 **Cache platforms:** worked with ElastiCache and MemoryDB, migrated Redis workloads to Valkey, and used resource/workload analysis to drive cost optimisation.
 
